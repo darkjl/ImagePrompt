@@ -19,3 +19,10 @@
 | Gemini | GPT |
 | :---: | :---: |
 | <img src="./야쿠자/제미나이.jpg" width="300"/> | <img src="./야쿠자/GPT.jpg" width="300"/> |
+
+### 3. 귀여운 케릭터
+- **[작고 하얀 동물형 생물 캐릭터 프롬프트](./귀여운%20케릭터/Cute_Character_Prompt.md)**
+
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./귀여운 케릭터/제미나이.jpg" width="300"/> | <img src="./귀여운 케릭터/GPT.jpg" width="300"/> |
