@@ -17,3 +17,4 @@
 | 9 | **물아일체** | [풍경 동화(Landscape Dissolve)](./물아일체/Landscape_Dissolve_Prompt.md) | <img src="./물아일체/제미나이.jpg" width="90"/> <img src="./물아일체/GPT.jpg" width="90"/> |
 | 10 | **로판표지생성** | [웹소설 로맨스판타지 표지 일러스트](./로판표지생성/Romance_Fantasy_Cover_Prompt.md) | <img src="./로판표지생성/제미나이.jpg" width="90"/> <img src="./로판표지생성/GPT.jpg" width="90"/> |
 | 11 | **사신수와무사** | [사신수와 조선 철릭 무사](./사신수와무사/Four_Gods_Warrior_Prompt.md) | <img src="./사신수와무사/제미나이.jpg" width="90"/> <img src="./사신수와무사/GPT.png" width="90"/> |
+| 12 | **사진을수채화로** | [투명한 습식 수채화 인물화](./사진을수채화로/Watercolor_Portrait_Prompt.md) | <img src="./사진을수채화로/제미나이.png" width="90"/> <img src="./사진을수채화로/GPT.png" width="90"/> |
