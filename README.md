@@ -55,4 +55,9 @@
 | :---: | :---: |
 | <img src="./중세 판타지/제미나이.png" width="300"/> | <img src="./중세 판타지/GPT.jpg" width="300"/> |
 
+### 8. 귀여운 프라모델
+- **[SD 치비 1/12 스케일 조립형 프라모델 피규어 프롬프트](./귀여운%20프라모델/Cute_Plastic_Model_Prompt.md)**
 
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./귀여운 프라모델/제미나이.png" width="300"/> | <img src="./귀여운 프라모델/GPT.jpg" width="300"/> |
