@@ -30,3 +30,4 @@
 | 22 | **요술공주 밍키 한복** | [로판풍 요술공주 밍키 마법소녀 한복](./요술공주%20밍키%20한복/Magical_Princess_Minky_Hanbok_Prompt.md) | <img src="./요술공주 밍키 한복/제미나이.jpg" width="90"/> <img src="./요술공주 밍키 한복/GPT.jpg" width="90"/> |
 | 23 | **흑백웨딩사진** | [시네마틱 흑백 파인아트 웨딩 포트레이트](./흑백웨딩사진/Cinematic_BW_Bridal_Portrait_Prompt.md) | <img src="./흑백웨딩사진/제미나이.png" width="90"/> <img src="./흑백웨딩사진/GPT.jpg" width="90"/> |
 | 24 | **가든 웨딩사진** | [로맨틱 유럽풍 가든 웨딩 포트레이트](./가든%20웨딩사진/Romantic_Garden_Bridal_Portrait_Prompt.md) | <img src="./가든 웨딩사진/제미나이.png" width="90"/> <img src="./가든 웨딩사진/GPT.jpg" width="90"/> |
+| 25 | **햅번 스타일** | [클래식 오드리 헵번풍 패션 뷰티 일러스트](./햅번%20스타일/Hepburn_Style_Fashion_Portrait_Prompt.md) | <img src="./햅번 스타일/제미나이.png" width="90"/> <img src="./햅번 스타일/GPT.jpg" width="90"/> |
