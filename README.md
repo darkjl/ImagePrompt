@@ -16,3 +16,4 @@
 | 8 | **귀여운 프라모델** | [SD 치비 1/12 스케일 조립형 피규어](./귀여운%20프라모델/Cute_Plastic_Model_Prompt.md) | <img src="./귀여운 프라모델/제미나이.png" width="90"/> <img src="./귀여운 프라모델/GPT.jpg" width="90"/> |
 | 9 | **물아일체** | [풍경 동화(Landscape Dissolve)](./물아일체/Landscape_Dissolve_Prompt.md) | <img src="./물아일체/제미나이.jpg" width="90"/> <img src="./물아일체/GPT.jpg" width="90"/> |
 | 10 | **로판표지생성** | [웹소설 로맨스판타지 표지 일러스트](./로판표지생성/Romance_Fantasy_Cover_Prompt.md) | <img src="./로판표지생성/제미나이.jpg" width="90"/> <img src="./로판표지생성/GPT.jpg" width="90"/> |
+| 11 | **사신수와무사** | [사신수와 조선 철릭 무사](./사신수와무사/Four_Gods_Warrior_Prompt.md) | <img src="./사신수와무사/제미나이.jpg" width="90"/> <img src="./사신수와무사/GPT.png" width="90"/> |
