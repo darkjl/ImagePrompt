@@ -40,3 +40,10 @@
 | Gemini | GPT |
 | :---: | :---: |
 | <img src="./수묵화/제미나이.jpg" width="300"/> | <img src="./수묵화/GPT.jpg" width="300"/> |
+
+### 6. 벽화
+- **[거리 스텐실 그래피티 벽화 프롬프트](./벽화/Stencil_Graffiti_Prompt.md)**
+
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./벽화/제미나이.png" width="300"/> | <img src="./벽화/GPT.jpg" width="300"/> |
