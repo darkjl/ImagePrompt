@@ -15,3 +15,7 @@
 
 ### 2. 야쿠자
 - **[여성 야쿠자 이아이도 발도술 프롬프트](./야쿠자/Female_Yakuza_Prompt.md)**
+
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./야쿠자/제미나이.jpg" width="300"/> | <img src="./야쿠자/GPT.jpg" width="300"/> |

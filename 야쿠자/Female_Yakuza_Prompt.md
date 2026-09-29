@@ -21,4 +21,8 @@ A 35mm analog film photograph with visible, organic film grain, captured on a Le
 ---
 
 ## 3. 생성 예제
-<!-- 생성된 이미지가 추가될 영역입니다 -->
+
+| Gemini | GPT |
+| :---: | :---: |
+| ![Gemini](./제미나이.jpg) | ![GPT](./GPT.jpg) |
+
