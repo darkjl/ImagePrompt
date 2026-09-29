@@ -69,7 +69,8 @@ seal. Keep the exact same face as the reference photo.
 
 ## 3. 생성 예제
 
-| Gemini |
-| :---: |
-| ![Gemini](./제미나이.png) |
+| Gemini | GPT |
+| :---: | :---: |
+| ![Gemini](./제미나이.png) | ![GPT](./GPT.jpg) |
+
 

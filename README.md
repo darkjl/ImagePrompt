@@ -51,7 +51,8 @@
 ### 7. 중세 판타지
 - **[에픽 중세 판타지 초상화 (그라디언트 디졸브) 프롬프트](./중세%20판타지/Medieval_Fantasy_Portrait_Prompt.md)**
 
-| Gemini |
-| :---: |
-| <img src="./중세 판타지/제미나이.png" width="300"/> |
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./중세 판타지/제미나이.png" width="300"/> | <img src="./중세 판타지/GPT.jpg" width="300"/> |
+
 
