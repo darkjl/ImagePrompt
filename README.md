@@ -33,3 +33,10 @@
 | Gemini | GPT |
 | :---: | :---: |
 | <img src="./동네 백수/제미나이.jpg" width="300"/> | <img src="./동네 백수/GPT.jpg" width="300"/> |
+
+### 5. 수묵화
+- **[조선시대 인물 전통 수묵화 프롬프트](./수묵화/Korean_Ink_Wash_Portrait_Prompt.md)**
+
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./수묵화/제미나이.jpg" width="300"/> | <img src="./수묵화/GPT.jpg" width="300"/> |
