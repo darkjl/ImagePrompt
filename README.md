@@ -26,3 +26,10 @@
 | Gemini | GPT |
 | :---: | :---: |
 | <img src="./귀여운 케릭터/제미나이.jpg" width="300"/> | <img src="./귀여운 케릭터/GPT.jpg" width="300"/> |
+
+### 4. 동네 백수
+- **[동네 골목 슈퍼 앞 일상 (빈티지 트레이닝복) 프롬프트](./동네%20백수/Neighborhood_Slacker_Prompt.md)**
+
+| GPT |
+| :---: |
+| <img src="./동네 백수/GPT.jpg" width="300"/> |
