@@ -121,6 +121,7 @@ homeless appearance, beggar appearance, extreme poverty aesthetic, dirty clothes
 
 ## 3. 생성 예제
 
-| GPT |
-| :---: |
-| ![GPT](./GPT.jpg) |
+| Gemini | GPT |
+| :---: | :---: |
+| ![Gemini](./제미나이.jpg) | ![GPT](./GPT.jpg) |
+
