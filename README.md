@@ -25,3 +25,4 @@
 | 17 | **못난이 인형** | [70~80년대 빈티지 소프비 인형](./못난이%20인형/Vintage_Motnani_Doll_Prompt.md) | <img src="./못난이 인형/제미나이.png" width="90"/> <img src="./못난이 인형/GPT.png" width="90"/> |
 | 18 | **세일러문 한복버전** | [로판풍 세일러문 정통 한복](./세일러문%20한복버전/Sailor_Moon_Hanbok_Prompt.md) | <img src="./세일러문 한복버전/제미나이.png" width="90"/> <img src="./세일러문 한복버전/GPT.jpg" width="90"/> |
 | 19 | **펜선 이미지** | [볼펜 드로잉 & 형광펜 청춘 스케치](./펜선%20이미지/Ballpoint_Highlighter_Portrait_Prompt.md) | <img src="./펜선 이미지/제미나이.png" width="90"/> <img src="./펜선 이미지/GPT.jpg" width="90"/> |
+| 20 | **중경삼림** | [1994년 홍콩 영화 필름 스틸컷](./중경삼림/Chungking_Express_Film_Still_Prompt.md) | <img src="./중경삼림/제미나이.png" width="90"/> <img src="./중경삼림/GPT.png" width="90"/> |
