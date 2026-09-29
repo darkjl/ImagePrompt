@@ -23,3 +23,4 @@
 | 15 | **바리데기** | [무조신 다크 판타지 시네마틱](./바리데기/Baridegi_Dark_Fantasy_Prompt.md) | <img src="./바리데기/제미나이.png" width="90"/> <img src="./바리데기/GPT.jpg" width="90"/> |
 | 16 | **구체관절인형** | [1:3 스케일 레진 BJD 인형](./구체관절인형/Ball_Jointed_Doll_Prompt.md) | <img src="./구체관절인형/제미나이.png" width="90"/> <img src="./구체관절인형/GPT.png" width="90"/> |
 | 17 | **못난이 인형** | [70~80년대 빈티지 소프비 인형](./못난이%20인형/Vintage_Motnani_Doll_Prompt.md) | <img src="./못난이 인형/제미나이.png" width="90"/> <img src="./못난이 인형/GPT.png" width="90"/> |
+| 18 | **세일러문 한복버전** | [로판풍 세일러문 정통 한복](./세일러문%20한복버전/Sailor_Moon_Hanbok_Prompt.md) | <img src="./세일러문 한복버전/제미나이.png" width="90"/> <img src="./세일러문 한복버전/GPT.jpg" width="90"/> |
