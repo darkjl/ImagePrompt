@@ -61,3 +61,13 @@
 | Gemini | GPT |
 | :---: | :---: |
 | <img src="./귀여운 프라모델/제미나이.png" width="300"/> | <img src="./귀여운 프라모델/GPT.jpg" width="300"/> |
+
+### 9. 물아일체
+- **[물아일체(物我一體) : 풍경 동화 프롬프트](./물아일체/Landscape_Dissolve_Prompt.md)**
+
+### 10. 로판표지생성
+- **[한국 웹소설 로맨스판타지 표지 일러스트 프롬프트](./로판표지생성/Romance_Fantasy_Cover_Prompt.md)**
+
+| Gemini | GPT |
+| :---: | :---: |
+| <img src="./로판표지생성/제미나이.jpg" width="300"/> | <img src="./로판표지생성/GPT.jpg" width="300"/> |
