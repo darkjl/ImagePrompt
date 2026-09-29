@@ -19,3 +19,4 @@
 | 11 | **사신수와무사** | [사신수와 조선 철릭 무사](./사신수와무사/Four_Gods_Warrior_Prompt.md) | <img src="./사신수와무사/제미나이.jpg" width="90"/> <img src="./사신수와무사/GPT.png" width="90"/> |
 | 12 | **사진을수채화로** | [투명한 습식 수채화 인물화](./사진을수채화로/Watercolor_Portrait_Prompt.md) | <img src="./사진을수채화로/제미나이.png" width="90"/> <img src="./사진을수채화로/GPT.png" width="90"/> |
 | 13 | **RPG 캐릭터** | [동양 판타지 수채화 컨셉아트](./RPG%20캐릭터/Goguryeo_Fantasy_RPG_Character_Prompt.md) | <img src="./RPG 캐릭터/제미나이.png" width="90"/> <img src="./RPG 캐릭터/GPT.jpg" width="90"/> |
+| 14 | **심청전** | [연꽃 환생 실사 판타지](./심청전/Shimcheong_Lotus_Fantasy_Prompt.md) | <img src="./심청전/제미나이.jpg" width="90"/> <img src="./심청전/GPT.jpg" width="90"/> |
