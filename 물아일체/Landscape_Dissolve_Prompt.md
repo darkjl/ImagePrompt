@@ -86,4 +86,8 @@ text anywhere in the image.
 ---
 
 ## 3. 생성 예제
-<!-- 생성 이미지가 추가될 영역입니다 -->
+
+| Gemini | GPT |
+| :---: | :---: |
+| ![Gemini](./제미나이.jpg) | ![GPT](./GPT.jpg) |
+

@@ -14,5 +14,5 @@
 | 6 | **벽화** | [거리 스텐실 그래피티 벽화](./벽화/Stencil_Graffiti_Prompt.md) | <img src="./벽화/제미나이.png" width="90"/> <img src="./벽화/GPT.jpg" width="90"/> |
 | 7 | **중세 판타지** | [에픽 판타지 (그라디언트 디졸브)](./중세%20판타지/Medieval_Fantasy_Portrait_Prompt.md) | <img src="./중세 판타지/제미나이.png" width="90"/> <img src="./중세 판타지/GPT.jpg" width="90"/> |
 | 8 | **귀여운 프라모델** | [SD 치비 1/12 스케일 조립형 피규어](./귀여운%20프라모델/Cute_Plastic_Model_Prompt.md) | <img src="./귀여운 프라모델/제미나이.png" width="90"/> <img src="./귀여운 프라모델/GPT.jpg" width="90"/> |
-| 9 | **물아일체** | [풍경 동화(Landscape Dissolve)](./물아일체/Landscape_Dissolve_Prompt.md) | *(예제 추가 예정)* |
+| 9 | **물아일체** | [풍경 동화(Landscape Dissolve)](./물아일체/Landscape_Dissolve_Prompt.md) | <img src="./물아일체/제미나이.jpg" width="90"/> <img src="./물아일체/GPT.jpg" width="90"/> |
 | 10 | **로판표지생성** | [웹소설 로맨스판타지 표지 일러스트](./로판표지생성/Romance_Fantasy_Cover_Prompt.md) | <img src="./로판표지생성/제미나이.jpg" width="90"/> <img src="./로판표지생성/GPT.jpg" width="90"/> |
