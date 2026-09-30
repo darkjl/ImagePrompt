@@ -35,4 +35,6 @@
 | 27 | **지옥의신부** | [지옥의 신부 다크 판타지 시네마틱](./지옥의신부/Bride_of_Hell_Dark_Fantasy_Prompt.md) | <img src="./지옥의신부/제미나이.png" width="90"/> <img src="./지옥의신부/GPT.jpg" width="90"/> |
 | 28 | **아크릴유화** | [사진을 캔버스 아크릴 인물화로 변환](./아크릴유화/Acrylic_Portrait_Prompt.md) | <img src="./아크릴유화/제미나이.png" width="90"/> <img src="./아크릴유화/GPT.png" width="90"/> |
 | 29 | **몽환수채화** | [몽환적 수채화 인물화 (마스터 템플릿)](./몽환수채화/Dreamy_Watercolor_Portrait_Prompt.md) | <img src="./몽환수채화/제미나이.jpg" width="90"/> <img src="./몽환수채화/GPT.png" width="90"/> |
+| 30 | **엔딩요정** | [K-pop 아이돌 음악방송 '엔딩 요정'](./엔딩요정/Ending_Fairy_Idol_Prompt.md) | <img src="./엔딩요정/제미나이.jpg" width="90"/> <img src="./엔딩요정/GPT.jpg" width="90"/> |
+
 
