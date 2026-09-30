@@ -38,6 +38,8 @@
 | 30 | **엔딩요정** | [K-pop 아이돌 음악방송 '엔딩 요정'](./엔딩요정/Ending_Fairy_Idol_Prompt.md) | <img src="./엔딩요정/제미나이.jpg" width="90"/> <img src="./엔딩요정/GPT.jpg" width="90"/> |
 | 31 | **옥토끼** | [SF 달 기지 옥토끼 메카 배틀슈트](./옥토끼/Moon_Rabbit_Mecha_Suit_Prompt.md) | <img src="./옥토끼/제미나이.jpg" width="90"/> <img src="./옥토끼/GPT.webp" width="90"/> |
 | 32 | **여우코스프레** | [로판풍 여우·고양이 코스프레 판타지 패션 화보](./여우코스프레/Fox_Cosplay_Fantasy_Prompt.md) | <img src="./여우코스프레/제미나이.png" width="90"/> <img src="./여우코스프레/GPT.jpg" width="90"/> |
+| 33 | **검무** | [조선 궁궐 기녀 검무(劍舞) 시네마틱](./검무/Joseon_Gisaeng_Sword_Dance_Prompt.md) | <img src="./검무/제미나이.jpg" width="90"/> <img src="./검무/GPT.jpg" width="90"/> |
+
 
 
 
