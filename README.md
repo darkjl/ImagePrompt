@@ -39,6 +39,35 @@
 | 31 | **옥토끼** | [SF 달 기지 옥토끼 메카 배틀슈트](./옥토끼/Moon_Rabbit_Mecha_Suit_Prompt.md) | <img src="./옥토끼/제미나이.jpg" width="90"/> <img src="./옥토끼/GPT.webp" width="90"/> |
 | 32 | **여우코스프레** | [로판풍 여우·고양이 코스프레 판타지 패션 화보](./여우코스프레/Fox_Cosplay_Fantasy_Prompt.md) | <img src="./여우코스프레/제미나이.png" width="90"/> <img src="./여우코스프레/GPT.jpg" width="90"/> |
 | 33 | **검무** | [조선 궁궐 기녀 검무(劍舞) 시네마틱](./검무/Joseon_Gisaeng_Sword_Dance_Prompt.md) | <img src="./검무/제미나이.jpg" width="90"/> <img src="./검무/GPT.jpg" width="90"/> |
+| 34 | **진 소재로 만든 한복** | [모던 리디자인 진 한복 로판 화보](./진%20소재로%20만든%20한복/Denim_Hanbok_Prompt.md) | <img src="./진 소재로 만든 한복/제미나이.jpg" width="90"/> <img src="./진 소재로 만든 한복/GPT.jpg" width="90"/> |
+| 35 | **플라맹고** | [플라멩코 댄서 & 장화 신은 고양이](./플라맹고/Flamenco_Prompt.md) | <img src="./플라맹고/제미나이.jpg" width="90"/> <img src="./플라맹고/GPT.jpg" width="90"/> |
+| 36 | **베르사유장미** | [오스칼 스타일 근위대장 시네마틱 화보](./베르사유장미/Rose_of_Versailles_Prompt.md) | <img src="./베르사유장미/제미나이.jpg" width="90"/> <img src="./베르사유장미/GPT.jpg" width="90"/> |
+| 37 | **벽쿵 고백** | [로맨스 드라마 '벽쿵 고백' 스틸컷](./벽쿵%20고백/Wall_Slam_Confession_Prompt.md) | <img src="./벽쿵 고백/제미나이.jpg" width="90"/> <img src="./벽쿵 고백/GPT.jpg" width="90"/> |
+| 38 | **반려동물 수묵화** | [조선시대 화원풍 반려동물 전통 민화·채색 수묵화](./반려동물%20수묵화/Pet_Korean_Ink_Painting_Prompt.md) | <img src="./반려동물 수묵화/제미나이.jpg" width="90"/> <img src="./반려동물 수묵화/GPT.jpg" width="90"/> |
+| 39 | **이니셜포니** | [이니셜 포니 야간 다운힐 레이싱 & 운전자 극클로즈업](./이니셜포니/Initial_Pony_Racing_Prompt.md) | <img src="./이니셜포니/제미나이.jpg" width="90"/> <img src="./이니셜포니/GPT.jpg" width="90"/> |
+| 40 | **햇살좋은어느날** | [청춘 로맨스 영화 스틸컷 '햇살 좋은 어느 날'](./햇살좋은어느날/Sunny_Day_Romance_Prompt.md) | <img src="./햇살좋은어느날/제미나이.jpg" width="90"/> <img src="./햇살좋은어느날/GPT.jpg" width="90"/> |
+| 41 | **사진을팝아트로** | [디지털 페인팅 & 팝아트 일러스트 변환](./사진을팝아트로/Pop_Art_Digital_Painting_Prompt.md) | <img src="./사진을팝아트로/제미나이.jpg" width="90"/> <img src="./사진을팝아트로/GPT.jpg" width="90"/> |
+| 42 | **달빛 아래의 동양 여인** | [미드저니풍 반실사 디지털 일러스트](./달빛%20아래의%20동양%20여인/Moonlight_Oriental_Woman_Prompt.md) | <img src="./달빛 아래의 동양 여인/제미나이.jpg" width="90"/> <img src="./달빛 아래의 동양 여인/GPT.jpg" width="90"/> |
+| 43 | **홀로그램 로즈** | [고딕 로맨틱 '홀로그램 로즈' 반실사 일러스트](./홀로그램%20로즈/Hologram_Rose_Gothic_Prompt.md) | <img src="./홀로그램 로즈/제미나이.jpg" width="90"/> <img src="./홀로그램 로즈/GPT.jpg" width="90"/> |
+| 44 | **로맨스판타지 초상화** | [완전 정면 로맨스 판타지 디지털 페인팅 초상화](./로맨스판타지%20초상화/Romance_Fantasy_Frontal_Portrait_Prompt.md) | <img src="./로맨스판타지 초상화/제미나이.jpg" width="90"/> <img src="./로맨스판타지 초상화/GPT.jpg" width="90"/> |
+| 45 | **2중인격앨리스** | [2중인격 앨리스 실사 화보](./2중인격앨리스/Dual_Persona_Alice_Prompt.md) | <img src="./2중인격앨리스/제미나이.jpg" width="90"/> <img src="./2중인격앨리스/GPT.jpg" width="90"/> |
+| 46 | **오팔아이프리즘선그라스** | [오팔 아이 & 프리즘 선글라스 뷰티 에디토리얼](./오팔아이프리즘선그라스/Opal_Eyes_Prism_Sunglasses_Prompt.md) | <img src="./오팔아이프리즘선그라스/제미나이.jpg" width="90"/> <img src="./오팔아이프리즘선그라스/GPT.jpg" width="90"/> |
+| 47 | **검은베일** | [고딕 판타지 패션 에디토리얼 '검은 베일'](./검은베일/Black_Veil_Gothic_Prompt.md) | <img src="./검은베일/제미나이.jpg" width="90"/> <img src="./검은베일/GPT.jpg" width="90"/> |
+| 48 | **벨벳마녀** | [하이퍼리얼 고딕 판타지 '벨벳 마녀'](./벨벳마녀/Velvet_Witch_Gothic_Prompt.md) | <img src="./벨벳마녀/제미나이.jpg" width="90"/> <img src="./벨벳마녀/GPT.jpg" width="90"/> |
+| 49 | **검은 고양이** | [심리적 고딕 호러 '검은 고양이' 포트레이트](./검은%20고양이/Black_Cat_Gothic_Horror_Prompt.md) | <img src="./검은 고양이/제미나이.jpg" width="90"/> <img src="./검은 고양이/GPT.jpg" width="90"/> |
+| 50 | **빨간망토** | [다크 판타지 고딕 호러 '빨간 망토'](./빨간망토/Little_Red_Riding_Hood_Prompt.md) | <img src="./빨간망토/제미나이.jpg" width="90"/> <img src="./빨간망토/GPT.jpg" width="90"/> |
+| 51 | **뷰티포트레이트** | [세미리얼리스틱 에디토리얼 '뷰티 포트레이트'](./뷰티포트레이트/Semi_Realistic_Beauty_Portrait_Prompt.md) | <img src="./뷰티포트레이트/제미나이.jpg" width="90"/> <img src="./뷰티포트레이트/GPT.jpg" width="90"/> |
+| 52 | **어부바** | [청량한 여름 호숫가 '어부바' 로맨스 화보](./어부바/Piggyback_Summer_Romance_Prompt.md) | <img src="./어부바/제미나이.jpg" width="90"/> <img src="./어부바/GPT.jpg" width="90"/> |
+| 53 | **포슬린돌** | [몽환적인 파스텔 톤 포슬린 돌 3D 일러스트](./포슬린돌/Porcelain_Doll_Prompt.md) | <img src="./포슬린돌/제미나이.jpg" width="90"/> <img src="./포슬린돌/GPT.jpg" width="90"/> |
+| 54 | **8090필름** | [1980-90년대 빈티지 35mm 로우파이 필름 스냅](./8090필름/Retro_90s_Film_Snap_Prompt.md) | <img src="./8090필름/제미나이.jpg" width="90"/> <img src="./8090필름/GPT.jpg" width="90"/> |
+| 55 | **어진** | [조선 왕실 어진 양식 전통 비단 채색 초상화](./어진/Royal_Portrait_Eojin_Prompt.md) | <img src="./어진/제미나이.jpg" width="90"/> <img src="./어진/GPT.jpg" width="90"/> |
+| 56 | **다게레오타입** | [1850년대 다게레오타입 은판 사진 초상화](./다게레오타임사진/Daguerreotype_Portrait_Prompt.md) | <img src="./다게레오타임사진/제미나이.jpg" width="90"/> <img src="./다게레오타임사진/GPT.jpg" width="90"/> |
+| 57 | **별빛 피아노** | [코스믹 판타지 크리스털 '별빛 피아노' 세미리얼 일러스트](./별빛%20피아노/Starlight_Crystal_Piano_Prompt.md) | <img src="./별빛 피아노/제미나이.jpg" width="90"/> <img src="./별빛 피아노/GPT.jpg" width="90"/> |
+| 58 | **비오는날 창밖에서** | [비 오는 저녁 통유리창 너머 감성 시네마틱 화보](./비오늘날의창밖에서/Rainy_Day_Window_Melancholy_Prompt.md) | <img src="./비오늘날의창밖에서/제미나이.jpg" width="90"/> <img src="./비오늘날의창밖에서/GPT.jpg" width="90"/> |
+| 59 | **코스모스** | [60년대 모드 스타일 황화코스모스 런웨이 패션 화보](./코스모스%20런웨이/Cosmos_Runway_Mod_Fashion_Prompt.md) | <img src="./코스모스 런웨이/제미나이.jpg" width="90"/> <img src="./코스모스 런웨이/GPT.jpg" width="90"/> |
+| 60 | **블루로즈 화이트** | [하이엔드 로열 블루 룩 & 블루 로즈 화이트 스튜디오 화보](./블루%20로즈%20화이트%20스튜디오/Royal_Blue_Look_Fashion_Prompt.md) | <img src="./블루 로즈 화이트 스튜디오/제미나이.jpg" width="90"/> <img src="./블루 로즈 화이트 스튜디오/GPT.jpg" width="90"/> |
+| 61 | **마리오네트** | [18세기 소극장 무대 꼭두각시 '마리오네트' 필름 실사](./마리오네트/Marionette_Theater_Stage_Prompt.md) | <img src="./마리오네트/제미나이.jpg" width="90"/> <img src="./마리오네트/GPT.jpg" width="90"/> |
+| 62 | **화이트 카나리아** | [하이엔드 3D 아트토이 캐릭터 '화이트 카나리아' 일러스트](./화이트%20카나리아/White_Canary_Art_Toy_Prompt.md) | <img src="./화이트 카나리아/제미나이.jpg" width="90"/> <img src="./화이트 카나리아/GPT.jpg" width="90"/> |
 
 
 
