@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>이미지 프롬프트 갤러리</title>
+<meta name="author" content="도지마의 유부남 (@dadofdojima)">
 <meta name="description" content="같은 프롬프트로 Gemini와 GPT가 그린 이미지를 나란히 보고, 프롬프트 전문을 가져갈 수 있는 갤러리">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,6 +53,8 @@ a { color: inherit; }
   color: var(--hoecheong);
   word-break: keep-all;
 }
+.masthead .byline { margin-top: 16px; }
+.masthead .byline strong { margin-right: 10px; font-weight: 600; color: var(--ok); }
 
 /* 찾기와 모델 고르기 */
 .controls {
@@ -250,6 +253,7 @@ dialog::backdrop { background: rgb(5 8 14 / 0.86); }
   <header class="masthead">
     <h1>이미지 프롬프트<br>갤러리</h1>
     <p>같은 프롬프트를 Gemini와 GPT에 넣어 얻은 결과를 모았습니다. 그림을 누르면 두 결과를 나란히 보고 프롬프트 전문을 가져갈 수 있습니다.</p>
+    <p class="byline"><strong>도지마의 유부남</strong> 출처 @dadofdojima</p>
   </header>
 
   <div class="controls">
