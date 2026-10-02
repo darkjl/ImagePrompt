@@ -86,7 +86,8 @@ a:hover { color: var(--accent); }
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
 }
-.bar-left { display: flex; align-items: center; gap: 14px; }
+.bar-left { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px; }
+.bar-left .toggle + .bar-label { margin-left: 10px; }
 .bar-label { font-size: 13px; color: var(--muted); }
 .toggle { display: flex; gap: 2px; padding: 3px; border: 1px solid var(--ink); border-radius: 999px; }
 .toggle button {
@@ -100,6 +101,7 @@ a:hover { color: var(--accent); }
   border-radius: 999px;
   cursor: pointer;
 }
+.toggle button[data-order] { padding: 7px 14px; font-family: var(--sans); font-size: 13px; letter-spacing: 0; }
 .toggle button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .count { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; color: var(--muted); }
 
@@ -258,6 +260,8 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   .card-text { flex-direction: column; gap: 4px; }
   .card-title { font-size: 16px; }
   .bar-label { display: none; }
+  .bar-left .toggle + .bar-label { margin-left: 0; }
+  .count { display: none; }
   .sheet-head, .prompt { padding-left: 16px; padding-right: 16px; }
 }
 @media (max-width: 900px) {
@@ -287,6 +291,12 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     <div class="toggle" role="group" aria-labelledby="toggle-label">
       <button type="button" data-model="gpt" aria-pressed="true">GPT</button>
       <button type="button" data-model="gemini" aria-pressed="false">Gemini</button>
+    </div>
+    <span class="bar-label" id="order-label">정렬</span>
+    <div class="toggle" role="group" aria-labelledby="order-label">
+      <button type="button" data-order="new" aria-pressed="true">최신순</button>
+      <button type="button" data-order="old" aria-pressed="false">오래된순</button>
+      <button type="button" data-order="name" aria-pressed="false">가나다순</button>
     </div>
   </div>
   <span class="count" id="count"></span>
@@ -341,13 +351,28 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   var grid = document.getElementById("grid");
   var viewer = document.getElementById("viewer");
   var copyBtn = document.getElementById("viewer-copy");
-  var toggles = document.querySelectorAll(".toggle button");
+  var toggles = document.querySelectorAll(".toggle button[data-model]");
+  var orders = document.querySelectorAll(".toggle button[data-order]");
+  var shown = items;
   var current = -1;
   var model = "gpt";
+  var order = "new";
 
   try {
     if (localStorage.getItem("model") === "gemini") model = "gemini";
+    var saved = localStorage.getItem("order");
+    if (saved === "old" || saved === "name") order = saved;
   } catch (e) {}
+
+  function sorted() {
+    var list = items.slice();
+    if (order === "name") {
+      list.sort(function (a, b) { return a.name.localeCompare(b.name, "ko", { numeric: true }); });
+    } else {
+      list.sort(function (a, b) { return order === "old" ? a.n - b.n : b.n - a.n; });
+    }
+    return list;
+  }
 
   function pad(n) { return n < 10 ? "0" + n : String(n); }
   function thumb(it) { return "./thumbs/" + model + "/" + pad(it.n) + ".jpg"; }
@@ -359,8 +384,9 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   }
 
   function render() {
+    shown = sorted();
     grid.textContent = "";
-    items.forEach(function (it, i) {
+    shown.forEach(function (it, i) {
       var li = document.createElement("li");
       var btn = document.createElement("button");
       btn.className = "card";
@@ -395,6 +421,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
       grid.append(li);
     });
     toggles.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.model === model)); });
+    orders.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.order === order)); });
   }
 
   function resetCopy() {
@@ -403,10 +430,10 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   }
 
   function show(i) {
-    var n = items.length;
+    var n = shown.length;
     if (!n) return;
     current = (i + n) % n;
-    var it = items[current];
+    var it = shown[current];
     document.getElementById("viewer-no").textContent = pad(it.n);
     document.getElementById("viewer-title").textContent = it.name;
     var gpt = document.getElementById("viewer-gpt");
@@ -427,7 +454,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   // 주소 끝의 #번호로 해당 프롬프트를 바로 연다.
   function openFromHash() {
     var n = Number(location.hash.slice(1));
-    var i = items.findIndex(function (it) { return it.n === n; });
+    var i = shown.findIndex(function (it) { return it.n === n; });
     if (i !== -1) show(i);
   }
 
@@ -442,8 +469,15 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
       render();
     });
   });
+  orders.forEach(function (b) {
+    b.addEventListener("click", function () {
+      order = b.dataset.order;
+      try { localStorage.setItem("order", order); } catch (e) {}
+      render();
+    });
+  });
   copyBtn.addEventListener("click", function () {
-    var text = items[current].prompt;
+    var text = shown[current].prompt;
     var done = function () {
       copyBtn.textContent = "복사됨";
       copyBtn.classList.add("done");
