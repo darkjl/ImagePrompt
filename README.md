@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>88 prompts · Gemini / GPT · 최신순</sub>
+<sub>89 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./화난%20애니캐릭/Angry_Anime_Character_Art_Toy_ID_Prompt.md" title="애니 캐릭터 코스튬 화난 미니미 아트토이 증명사진"><img src="./thumbs/89.jpg" width="200" alt="화난 애니캐릭"></a><br><sub>89</sub><br><a href="./화난%20애니캐릭/Angry_Anime_Character_Art_Toy_ID_Prompt.md">화난 애니캐릭</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./1950년패션화보/1950s_Vintage_Couture_Fashion_Editorial_Prompt.md" title="1950년대 파리 오뜨 쿠튀르 흑백 패션 매거진 광고 화보"><img src="./thumbs/88.jpg" width="200" alt="1950년패션화보"></a><br><sub>88</sub><br><a href="./1950년패션화보/1950s_Vintage_Couture_Fashion_Editorial_Prompt.md">1950년패션화보</a></td>
     <td align="center" valign="top" width="25%"><a href="./라이프매거진/Vintage_LIFE_Magazine_Cover_Prompt.md" title="1950~70년대 미국 LIFE 매거진 빈티지 포토저널리즘 표지"><img src="./thumbs/87.jpg" width="200" alt="라이프매거진"></a><br><sub>87</sub><br><a href="./라이프매거진/Vintage_LIFE_Magazine_Cover_Prompt.md">라이프매거진</a></td>
