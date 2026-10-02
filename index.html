@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이미지 프롬프트 갤러리</title>
+<meta name="description" content="같은 프롬프트로 Gemini와 GPT가 그린 이미지를 나란히 보고, 프롬프트 전문을 가져갈 수 있는 갤러리">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --jjok: #131a2b;      /* 쪽빛 바탕 */
+  --meok: #0b101b;      /* 먹색, 이미지 뒤와 대화상자 */
+  --line: #2a3450;
+  --hanji: #ede8dd;     /* 한지색 글자 */
+  --hoecheong: #8e97ad; /* 회청, 보조 글자 */
+  --ok: #7ccdb6;        /* 옥색 강조 */
+  --display: "Nanum Myeongjo", "Noto Serif KR", serif;
+  --body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--jjok);
+  color: var(--hanji);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--ok); outline-offset: 3px; }
+
+.page { max-width: 1320px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px) 96px; }
+
+/* 머리말 */
+.masthead { padding: clamp(40px, 8vw, 96px) 0 clamp(24px, 4vw, 40px); }
+.masthead h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 8.5vw, 6.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
+}
+.masthead p {
+  max-width: 34em;
+  margin: 20px 0 0;
+  color: var(--hoecheong);
+  word-break: keep-all;
+}
+
+/* 찾기와 모델 고르기 */
+.controls {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  align-items: center;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  background: var(--jjok);
+  border-bottom: 1px solid var(--line);
+}
+.search {
+  flex: 1 1 220px;
+  min-width: 0;
+  height: 44px;
+  padding: 0 14px;
+  font: inherit;
+  color: var(--hanji);
+  background: var(--meok);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.search::placeholder { color: var(--hoecheong); }
+.model {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.model legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.model label { position: relative; }
+.model input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.model span {
+  display: block;
+  min-width: 84px;
+  height: 42px;
+  padding: 0 16px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--hoecheong);
+}
+.model input:checked + span { background: var(--ok); color: var(--meok); }
+.model input:focus-visible + span { outline: 2px solid var(--hanji); outline-offset: -4px; }
+.count { margin: 0; color: var(--hoecheong); font-size: 0.875rem; white-space: nowrap; }
+
+/* 갤러리 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  gap: 28px 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.card {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: var(--meok);
+  border-radius: 2px;
+}
+.card:hover img { outline: 1px solid var(--ok); outline-offset: 3px; }
+.card .no {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  color: var(--ok);
+  font-variant-numeric: tabular-nums;
+}
+.card .name { display: block; font-weight: 600; line-height: 1.35; word-break: keep-all; }
+.card .desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 2px;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--hoecheong);
+  word-break: keep-all;
+}
+.empty { padding: 64px 0; color: var(--hoecheong); }
+.empty[hidden] { display: none; }
+
+/* 크게 보기 */
+dialog {
+  width: min(1100px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  padding: 0;
+  color: var(--hanji);
+  background: var(--meok);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: auto;
+}
+dialog::backdrop { background: rgb(5 8 14 / 0.86); }
+.viewer-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 24px 16px;
+  background: var(--meok);
+  border-bottom: 1px solid var(--line);
+}
+.viewer-head h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(1.375rem, 3vw, 2rem);
+  line-height: 1.2;
+  word-break: keep-all;
+}
+.viewer-head p { margin: 6px 0 0; color: var(--hoecheong); font-size: 0.9375rem; word-break: keep-all; }
+.close {
+  flex: none;
+  height: 40px;
+  padding: 0 14px;
+  font: inherit;
+  color: var(--hanji);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.close:hover { border-color: var(--ok); }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 20px 24px; }
+.pair figure { margin: 0; }
+.pair figcaption { margin-bottom: 8px; font-weight: 500; color: var(--hoecheong); }
+.pair img { display: block; width: 100%; height: auto; border-radius: 2px; background: var(--jjok); }
+.viewer-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 24px;
+}
+.open-prompt {
+  display: inline-block;
+  padding: 11px 20px;
+  font-weight: 600;
+  color: var(--meok);
+  background: var(--ok);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.open-prompt:hover { background: var(--hanji); }
+.step { display: flex; gap: 8px; }
+.step button {
+  height: 44px;
+  padding: 0 16px;
+  font: inherit;
+  color: var(--hanji);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.step button:hover:not(:disabled) { border-color: var(--ok); }
+.step button:disabled { color: var(--line); cursor: default; }
+
+@media (max-width: 640px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 24px 12px; }
+  .count { display: none; }
+  .pair { grid-template-columns: 1fr; padding: 16px; }
+  .viewer-head { padding: 16px; }
+  .viewer-foot { padding: 0 16px 16px; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <h1>이미지 프롬프트<br>갤러리</h1>
+    <p>같은 프롬프트를 Gemini와 GPT에 넣어 얻은 결과를 모았습니다. 그림을 누르면 두 결과를 나란히 보고 프롬프트 전문을 가져갈 수 있습니다.</p>
+  </header>
+
+  <div class="controls">
+    <input class="search" id="search" type="search" placeholder="한복, 고딕, 아트토이처럼 찾고 싶은 말" aria-label="프롬프트 찾기" autocomplete="off">
+    <fieldset class="model">
+      <legend>목록에 보여줄 결과</legend>
+      <label><input type="radio" name="model" value="gpt" checked><span>GPT</span></label>
+      <label><input type="radio" name="model" value="gemini"><span>Gemini</span></label>
+    </fieldset>
+    <p class="count" id="count" aria-live="polite"></p>
+  </div>
+
+  <main>
+    <ul class="grid" id="grid"></ul>
+    <p class="empty" id="empty" hidden></p>
+  </main>
+</div>
+
+<dialog id="viewer" aria-labelledby="viewer-title">
+  <div class="viewer-head">
+    <div>
+      <h2 id="viewer-title"></h2>
+      <p id="viewer-desc"></p>
+    </div>
+    <button class="close" id="viewer-close" type="button">닫기</button>
+  </div>
+  <div class="pair">
+    <figure><figcaption>GPT</figcaption><img id="viewer-gpt" alt=""></figure>
+    <figure><figcaption>Gemini</figcaption><img id="viewer-gemini" alt=""></figure>
+  </div>
+  <div class="viewer-foot">
+    <a class="open-prompt" id="viewer-link" href="#">프롬프트 전문 보기</a>
+    <div class="step">
+      <button type="button" id="viewer-prev">이전</button>
+      <button type="button" id="viewer-next">다음</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="./data.js"></script>
+<script>
+(function () {
+  var items = window.GALLERY || [];
+  var grid = document.getElementById("grid");
+  var empty = document.getElementById("empty");
+  var count = document.getElementById("count");
+  var search = document.getElementById("search");
+  var viewer = document.getElementById("viewer");
+  var shown = items;
+  var current = -1;
+  var model = "gpt";
+
+  try {
+    if (localStorage.getItem("model") === "gemini") model = "gemini";
+  } catch (e) {}
+  document.querySelector('input[name="model"][value="' + model + '"]').checked = true;
+
+  function pad(n) { return n < 10 ? "0" + n : String(n); }
+  function thumb(it) { return (model === "gemini" ? "./thumbs/g/" : "./thumbs/") + pad(it.n) + ".jpg"; }
+  function full(it, which) { return encodeURI("./" + it.dir + "/" + it[which]); }
+  // GitHub Pages는 .md를 .html로 변환해 올린다. 파일로 직접 열 때는 원본 .md로 간다.
+  function docUrl(it) {
+    var doc = location.protocol === "file:" ? it.doc : it.doc.replace(/\.md$/, ".html");
+    return encodeURI("./" + it.dir + "/" + doc);
+  }
+
+  function render() {
+    var q = search.value.trim().toLowerCase();
+    shown = q ? items.filter(function (it) {
+      return (it.name + " " + it.desc).toLowerCase().indexOf(q) !== -1;
+    }) : items;
+
+    grid.textContent = "";
+    shown.forEach(function (it, i) {
+      var li = document.createElement("li");
+      var btn = document.createElement("button");
+      btn.className = "card";
+      btn.type = "button";
+      btn.dataset.index = i;
+
+      var img = document.createElement("img");
+      img.src = thumb(it);
+      img.alt = "";
+      img.loading = "lazy";
+      img.width = 400;
+      img.height = 600;
+
+      var no = document.createElement("span");
+      no.className = "no";
+      no.textContent = "No. " + pad(it.n);
+      var name = document.createElement("span");
+      name.className = "name";
+      name.textContent = it.name;
+      var desc = document.createElement("span");
+      desc.className = "desc";
+      desc.textContent = it.desc;
+
+      btn.append(img, no, name, desc);
+      li.append(btn);
+      grid.append(li);
+    });
+
+    count.textContent = q ? items.length + "개 중 " + shown.length + "개" : "프롬프트 " + items.length + "개";
+    empty.hidden = shown.length > 0;
+    if (!shown.length) empty.textContent = "‘" + search.value.trim() + "’에 맞는 프롬프트가 없습니다. 다른 말로 찾아보세요.";
+  }
+
+  function show(i) {
+    var it = shown[i];
+    if (!it) return;
+    current = i;
+    document.getElementById("viewer-title").textContent = it.name;
+    document.getElementById("viewer-desc").textContent = "No. " + pad(it.n) + " " + it.desc;
+    var gpt = document.getElementById("viewer-gpt");
+    var gemini = document.getElementById("viewer-gemini");
+    gpt.src = full(it, "gpt");
+    gpt.alt = it.name + " GPT 결과";
+    gemini.src = full(it, "gemini");
+    gemini.alt = it.name + " Gemini 결과";
+    document.getElementById("viewer-link").href = docUrl(it);
+    document.getElementById("viewer-prev").disabled = i === 0;
+    document.getElementById("viewer-next").disabled = i === shown.length - 1;
+    if (!viewer.open) viewer.showModal();
+    viewer.scrollTop = 0;
+    history.replaceState(null, "", "#" + it.n);
+  }
+
+  // 주소 끝의 #번호로 해당 프롬프트를 바로 연다.
+  function openFromHash() {
+    var n = Number(location.hash.slice(1));
+    var i = shown.findIndex(function (it) { return it.n === n; });
+    if (i !== -1) show(i);
+  }
+  viewer.addEventListener("close", function () {
+    history.replaceState(null, "", location.pathname + location.search);
+  });
+
+  grid.addEventListener("click", function (e) {
+    var btn = e.target.closest(".card");
+    if (btn) show(Number(btn.dataset.index));
+  });
+  search.addEventListener("input", render);
+  document.querySelectorAll('input[name="model"]').forEach(function (input) {
+    input.addEventListener("change", function () {
+      model = input.value;
+      try { localStorage.setItem("model", model); } catch (e) {}
+      render();
+    });
+  });
+  document.getElementById("viewer-close").addEventListener("click", function () { viewer.close(); });
+  document.getElementById("viewer-prev").addEventListener("click", function () { show(current - 1); });
+  document.getElementById("viewer-next").addEventListener("click", function () { show(current + 1); });
+  viewer.addEventListener("click", function (e) { if (e.target === viewer) viewer.close(); });
+  viewer.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") show(current - 1);
+    if (e.key === "ArrowRight") show(current + 1);
+  });
+
+  render();
+  openFromHash();
+})();
+</script>
+</body>
+</html>
