@@ -68,6 +68,26 @@
 | 60 | **블루로즈 화이트** | [하이엔드 로열 블루 룩 & 블루 로즈 화이트 스튜디오 화보](./블루%20로즈%20화이트%20스튜디오/Royal_Blue_Look_Fashion_Prompt.md) | <img src="./블루 로즈 화이트 스튜디오/제미나이.jpg" width="90"/> <img src="./블루 로즈 화이트 스튜디오/GPT.jpg" width="90"/> |
 | 61 | **마리오네트** | [18세기 소극장 무대 꼭두각시 '마리오네트' 필름 실사](./마리오네트/Marionette_Theater_Stage_Prompt.md) | <img src="./마리오네트/제미나이.jpg" width="90"/> <img src="./마리오네트/GPT.jpg" width="90"/> |
 | 62 | **화이트 카나리아** | [하이엔드 3D 아트토이 캐릭터 '화이트 카나리아' 일러스트](./화이트%20카나리아/White_Canary_Art_Toy_Prompt.md) | <img src="./화이트 카나리아/제미나이.jpg" width="90"/> <img src="./화이트 카나리아/GPT.jpg" width="90"/> |
+| 63 | **프라모델** | [건프라 스타일 런너 미조립 피규어 키트](./프라모델/Plastic_Model_Runner_Kit_Prompt.md) | <img src="./프라모델/제미나이.jpg" width="90"/> <img src="./프라모델/GPT.jpg" width="90"/> |
+| 64 | **나른한숏컷** | [나른한 픽시 숏컷 세미리얼리스틱 일러스트](./나른한숏컷/Languid_Pixie_Cut_Prompt.md) | <img src="./나른한숏컷/제미나이.jpg" width="90"/> <img src="./나른한숏컷/GPT.jpg" width="90"/> |
+| 65 | **구미호** | [신비로운 달빛 구미호 실사 판타지 시네마틱 화보](./구미호/Nine_Tailed_Fox_Gumiho_Prompt.md) | <img src="./구미호/제미나이.jpg" width="90"/> <img src="./구미호/GPT.jpg" width="90"/> |
+| 66 | **치파오** | [시누아즈리 빅토리안 맥시멀리즘 치파오 화보](./치파오/Chinoiserie_Cheongsam_Editorial_Prompt.md) | <img src="./치파오/제미나이.jpg" width="90"/> <img src="./치파오/GPT.jpg" width="90"/> |
+| 67 | **전투메이드** | [로맨스 판타지 전투 메이드 라이플 표지 일러스트](./전투메이드/Combat_Maid_Rifle_Prompt.md) | <img src="./전투메이드/제미나이.jpg" width="90"/> <img src="./전투메이드/GPT.jpg" width="90"/> |
+| 68 | **아이돌** | [K-pop 걸그룹 음악방송 무대 직캠 화보](./아이돌/Kpop_Idol_Stage_Fancam_Prompt.md) | <img src="./아이돌/제미나이.jpg" width="90"/> <img src="./아이돌/GPT.jpg" width="90"/> |
+| 69 | **할로윈코스튬** | [관상 기반 할로윈 코스튬 시네마틱 화보](./할로윈코스튬/Physiognomy_Halloween_Costume_Prompt.md) | <img src="./할로윈코스튬/제미나이.jpg" width="90"/> <img src="./할로윈코스튬/GPT.jpg" width="90"/> |
+| 70 | **패션잡지** | [90년대 레트로 스트리트 패션 잡지 한국어판](./패션잡지/Retro_90s_Street_Fashion_Magazine_Prompt.md) | <img src="./패션잡지/제미나이.jpg" width="90"/> <img src="./패션잡지/GPT.jpg" width="90"/> |
+| 71 | **자수초상화** | [조선 전통 규방자수 & 궁중자수 초상화](./자수초상화/Korean_Embroidery_Portrait_Prompt.md) | <img src="./자수초상화/제미나이(규방자수).jpg" width="90"/> <img src="./자수초상화/GPT(규방자수).jpg" width="90"/> |
+| 72 | **플라워 파라솔 런웨이** | [오트 쿠튀르 플라워 파라솔 런웨이 에디토리얼](./플라워%20파라솔%20런웨이/Flower_Parasol_Runway_Prompt.md) | <img src="./플라워 파라솔 런웨이/제미나이.jpg" width="90"/> <img src="./플라워 파라솔 런웨이/GPT.jpg" width="90"/> |
+
+
+
+
+
+
+
+
+
+
 
 
 
