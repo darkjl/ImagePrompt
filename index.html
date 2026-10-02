@@ -168,11 +168,19 @@ dialog {
   color: var(--ink);
   background: transparent;
   border: 0;
-  overflow-y: auto;
+  overflow: hidden;
 }
-dialog[open] { display: flex; justify-content: center; align-items: flex-start; }
+dialog[open] { display: flex; justify-content: center; align-items: stretch; }
 dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px); }
-.sheet { display: flex; flex-direction: column; width: 100%; max-width: 1240px; background: var(--paper); }
+.sheet { display: flex; flex-direction: column; width: 100%; max-width: 1440px; min-height: 0; background: var(--paper); }
+/* 그림은 고정하고 프롬프트 전문만 스크롤한다 */
+.sheet-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  min-height: 0;
+}
 .sheet-head {
   display: flex;
   justify-content: space-between;
@@ -201,15 +209,17 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
 .pill.solid.done { background: var(--accent); border-color: var(--accent); }
 .pair {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: minmax(0, 1fr);
   gap: 1px;
+  min-height: 0;
   background: var(--rule);
-  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule);
 }
-.pair figure { display: flex; flex-direction: column; gap: 12px; margin: 0; padding: 20px 24px 24px; background: var(--paper); }
+.pair figure { display: flex; flex-direction: column; gap: 12px; min-height: 0; margin: 0; padding: 20px 24px 24px; background: var(--paper); }
 .pair figcaption { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; }
-.pair img { display: block; width: 100%; height: auto; background: var(--paper-deep); }
-.prompt { display: flex; flex-direction: column; gap: 14px; padding: 24px; }
+.pair img { display: block; flex: 1; width: 100%; min-height: 0; object-fit: contain; object-position: center top; }
+.prompt { display: flex; flex-direction: column; gap: 14px; min-height: 0; padding: 24px; }
 .prompt-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
 .prompt-head > span { font-size: 13px; color: var(--muted); }
 .prompt-actions { display: flex; align-items: center; gap: 16px; }
@@ -224,6 +234,9 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   word-break: break-word;
   color: #2A2925;
   background: var(--paper-deep);
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
 }
 .step { display: flex; justify-content: space-between; border-top: 1px solid var(--rule); }
 .step button {
@@ -246,7 +259,12 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   .card-title { font-size: 16px; }
   .bar-label { display: none; }
   .sheet-head, .prompt { padding-left: 16px; padding-right: 16px; }
-  .pair figure { padding: 16px; }
+}
+@media (max-width: 900px) {
+  .sheet-body { grid-template-columns: minmax(0, 1fr); grid-template-rows: 44% minmax(0, 1fr); }
+  .pair { border-right: 0; border-bottom: 1px solid var(--rule); }
+  .pair figure { gap: 8px; padding: 12px 16px 16px; }
+  .prompt { padding-top: 16px; padding-bottom: 16px; }
 }
 </style>
 </head>
@@ -293,6 +311,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
       </div>
       <button class="pill" id="viewer-close" type="button">닫기</button>
     </div>
+    <div class="sheet-body">
     <div class="pair">
       <figure><figcaption>GPT</figcaption><img id="viewer-gpt" alt=""></figure>
       <figure><figcaption>Gemini</figcaption><img id="viewer-gemini" alt=""></figure>
@@ -305,7 +324,8 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
           <button class="pill solid" id="viewer-copy" type="button">프롬프트 복사</button>
         </div>
       </div>
-      <pre id="viewer-prompt"></pre>
+      <pre id="viewer-prompt" tabindex="0"></pre>
+    </div>
     </div>
     <div class="step">
       <button type="button" id="viewer-prev">← 이전</button>
@@ -396,11 +416,12 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     gpt.alt = it.name + " GPT 결과";
     gemini.src = full(it, "gemini");
     gemini.alt = it.name + " Gemini 결과";
-    document.getElementById("viewer-prompt").textContent = it.prompt;
+    var pre = document.getElementById("viewer-prompt");
+    pre.textContent = it.prompt;
+    pre.scrollTop = 0;
     document.getElementById("viewer-link").href = docUrl(it);
     resetCopy();
     if (!viewer.open) viewer.showModal();
-    viewer.scrollTop = 0;
     history.replaceState(null, "", "#" + it.n);
   }
 
