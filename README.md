@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>118 prompts · Gemini / GPT · 최신순</sub>
+<sub>119 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./나와생일이%20비슷한%20마법소녀/Birthday_Matched_Magical_Girl_Collector_Card_Prompt.md" title="생일이 같은 마법소녀를 찾아 그리는 은빛 부조 수집용 카드"><img src="./thumbs/119.jpg" width="200" alt="나랑 생일 비슷한 마법소녀"></a><br><sub>119</sub><br><a href="./나와생일이%20비슷한%20마법소녀/Birthday_Matched_Magical_Girl_Collector_Card_Prompt.md">나랑 생일 비슷한 마법소녀</a></td>
     <td align="center" valign="top" width="25%"><a href="./캣질라/Catzilla_Ukiyoe_Wave_Kaiju_Prompt.md" title="거대한 파도 위 반려동물 괴수 우키요에 목판화"><img src="./thumbs/118.jpg" width="200" alt="캣질라"></a><br><sub>118</sub><br><a href="./캣질라/Catzilla_Ukiyoe_Wave_Kaiju_Prompt.md">캣질라</a></td>
     <td align="center" valign="top" width="25%"><a href="./힙한나의분신/Hip_Minimi_Number_Driven_Streetwear_Prompt.md" title="숫자로 뽑은 스트릿 패션의 연필 스케치풍 아기 인형 미니미"><img src="./thumbs/117.jpg" width="200" alt="힙한 나의 분신"></a><br><sub>117</sub><br><a href="./힙한나의분신/Hip_Minimi_Number_Driven_Streetwear_Prompt.md">힙한 나의 분신</a></td>
   </tr>
