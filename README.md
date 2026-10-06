@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>97 prompts · Gemini / GPT · 최신순</sub>
+<sub>98 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./빨간망토와%20늑대/Red_Riding_Hood_and_Wolf_Back_Hug_Prompt.md" title="늑대후드 여자와 빨간망토 남자의 백허그 판타지 영화 스틸컷"><img src="./thumbs/98.jpg" width="200" alt="빨간망토와 늑대"></a><br><sub>98</sub><br><a href="./빨간망토와%20늑대/Red_Riding_Hood_and_Wolf_Back_Hug_Prompt.md">빨간망토와 늑대</a></td>
     <td align="center" valign="top" width="25%"><a href="./수고했어오늘도/Good_Job_Today_Streetlight_Night_Prompt.md" title="늦은 밤 골목 가로등 아래 전신주에 기대 하늘을 보는 영화 스틸컷"><img src="./thumbs/97.jpg" width="200" alt="수고했어 오늘도"></a><br><sub>97</sub><br><a href="./수고했어오늘도/Good_Job_Today_Streetlight_Night_Prompt.md">수고했어 오늘도</a></td>
   </tr>
   <tr>
