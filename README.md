@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>101 prompts · Gemini / GPT · 최신순</sub>
+<sub>102 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./내%20쇼핑카트에는%20무슨물건이%20있을까/Whats_in_My_Shopping_Cart_Prompt.md" title="AI가 아는 나로 추리한 꽉 찬 주말 마트 카트 실사 이미지"><img src="./thumbs/102.jpg" width="200" alt="내 카트에는 어떤 물건이"></a><br><sub>102</sub><br><a href="./내%20쇼핑카트에는%20무슨물건이%20있을까/Whats_in_My_Shopping_Cart_Prompt.md">내 카트에는 어떤 물건이</a></td>
     <td align="center" valign="top" width="25%"><a href="./나는%20어떤%20여왕일까/What_Kind_of_Queen_Am_I_Fantasy_Throne_Prompt.md" title="성격과 취향으로 정하는 옥좌 위 판타지 군주 화보"><img src="./thumbs/101.jpg" width="200" alt="나는 어떤 여왕일까"></a><br><sub>101</sub><br><a href="./나는%20어떤%20여왕일까/What_Kind_of_Queen_Am_I_Fantasy_Throne_Prompt.md">나는 어떤 여왕일까</a></td>
   </tr>
   <tr>
