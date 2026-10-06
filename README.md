@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>100 prompts · Gemini / GPT · 최신순</sub>
+<sub>101 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./나는%20어떤%20여왕일까/What_Kind_of_Queen_Am_I_Fantasy_Throne_Prompt.md" title="성격과 취향으로 정하는 옥좌 위 판타지 군주 화보"><img src="./thumbs/101.jpg" width="200" alt="나는 어떤 여왕일까"></a><br><sub>101</sub><br><a href="./나는%20어떤%20여왕일까/What_Kind_of_Queen_Am_I_Fantasy_Throne_Prompt.md">나는 어떤 여왕일까</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./책안의%20동화세상/Fairy_Tale_Popup_Book_Needle_Felt_Doll_Prompt.md" title="관상으로 고른 동화 팝업북 속 니들펠트 아트돌 디오라마"><img src="./thumbs/100.jpg" width="200" alt="책안의 동화 세상"></a><br><sub>100</sub><br><a href="./책안의%20동화세상/Fairy_Tale_Popup_Book_Needle_Felt_Doll_Prompt.md">책안의 동화 세상</a></td>
     <td align="center" valign="top" width="25%"><a href="./할로윈%20마녀%20코스프레/Amber_Pumpkin_Halloween_Witch_Prompt.md" title="앰버 보석 호박 잭오랜턴 할로윈 판타지 디지털 아트"><img src="./thumbs/99.jpg" width="200" alt="할로윈 마녀 코스프레"></a><br><sub>99</sub><br><a href="./할로윈%20마녀%20코스프레/Amber_Pumpkin_Halloween_Witch_Prompt.md">할로윈 마녀 코스프레</a></td>
