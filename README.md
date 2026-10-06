@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>89 prompts · Gemini / GPT · 최신순</sub>
+<sub>90 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./무협칭호/Murim_Title_Wuxia_Cover_Prompt.md" title="기억 기반 무림 인물록과 별호 한국 무협 웹소설 표지"><img src="./thumbs/90.jpg" width="200" alt="무협칭호"></a><br><sub>90</sub><br><a href="./무협칭호/Murim_Title_Wuxia_Cover_Prompt.md">무협칭호</a></td>
     <td align="center" valign="top" width="25%"><a href="./화난%20애니캐릭/Angry_Anime_Character_Art_Toy_ID_Prompt.md" title="애니 캐릭터 코스튬 화난 미니미 아트토이 증명사진"><img src="./thumbs/89.jpg" width="200" alt="화난 애니캐릭"></a><br><sub>89</sub><br><a href="./화난%20애니캐릭/Angry_Anime_Character_Art_Toy_ID_Prompt.md">화난 애니캐릭</a></td>
   </tr>
   <tr>
