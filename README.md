@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>104 prompts · Gemini / GPT · 최신순</sub>
+<sub>105 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./나의%20꽃은/My_Flower_Crown_Backlit_Beauty_Portrait_Prompt.md" title="나에게 어울리는 꽃으로 만든 화관 역광 뷰티 포트레이트"><img src="./thumbs/105.jpg" width="200" alt="나의 꽃은"></a><br><sub>105</sub><br><a href="./나의%20꽃은/My_Flower_Crown_Backlit_Beauty_Portrait_Prompt.md">나의 꽃은</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./바닷가%20청순/Seaside_Pure_White_Summer_Editorial_Prompt.md" title="한여름 터콰이즈 바다와 순백 슬립 원피스 극사실 패션 화보"><img src="./thumbs/104.jpg" width="200" alt="바닷가 청순"></a><br><sub>104</sub><br><a href="./바닷가%20청순/Seaside_Pure_White_Summer_Editorial_Prompt.md">바닷가 청순</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20반려동물%20탈것버전/My_Pet_Mount_Tiny_Rider_Fairy_Tale_Prompt.md" title="닮은 품종의 반려동물 등에 탄 손바닥 크기 소인국 동화 일러스트"><img src="./thumbs/103.jpg" width="200" alt="나의 반려동물 탈것"></a><br><sub>103</sub><br><a href="./나의%20반려동물%20탈것버전/My_Pet_Mount_Tiny_Rider_Fairy_Tale_Prompt.md">나의 반려동물 탈것</a></td>
