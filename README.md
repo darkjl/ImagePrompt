@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>108 prompts · Gemini / GPT · 최신순</sub>
+<sub>109 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./귀여운것들의%20행성/Planet_of_Cute_Things_Fantasy_Poster_Prompt.md" title="나를 닮은 귀여운 존재들만 사는 별의 판타지 영화 포스터"><img src="./thumbs/109.jpg" width="200" alt="귀여운 것들의 행성"></a><br><sub>109</sub><br><a href="./귀여운것들의%20행성/Planet_of_Cute_Things_Fantasy_Poster_Prompt.md">귀여운 것들의 행성</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./동화%20팝업북/Fairy_Tale_Vintage_Popup_Book_Prompt.md" title="좋아하는 숫자로 뽑은 동화의 빈티지 팝업북 접사 사진"><img src="./thumbs/108.jpg" width="200" alt="동화 팝업북"></a><br><sub>108</sub><br><a href="./동화%20팝업북/Fairy_Tale_Vintage_Popup_Book_Prompt.md">동화 팝업북</a></td>
     <td align="center" valign="top" width="25%"><a href="./샤이닝/Shining_Door_Hole_Movie_Still_Prompt.md" title="부서진 문 구멍 사이 광기 어린 미소의 80년대 영화 스틸컷"><img src="./thumbs/107.jpg" width="200" alt="샤이닝"></a><br><sub>107</sub><br><a href="./샤이닝/Shining_Door_Hole_Movie_Still_Prompt.md">샤이닝</a></td>
