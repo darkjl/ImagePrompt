@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>105 prompts · Gemini / GPT · 최신순</sub>
+<sub>106 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./나만의%20컵디자인%20인형/Personalized_Teacup_Needle_Felt_Art_Doll_Prompt.md" title="나를 분석해 디자인한 찻잔 위 니들펠트 아트돌 매크로 사진"><img src="./thumbs/106.jpg" width="200" alt="나만의 컵 디자인"></a><br><sub>106</sub><br><a href="./나만의%20컵디자인%20인형/Personalized_Teacup_Needle_Felt_Art_Doll_Prompt.md">나만의 컵 디자인</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20꽃은/My_Flower_Crown_Backlit_Beauty_Portrait_Prompt.md" title="나에게 어울리는 꽃으로 만든 화관 역광 뷰티 포트레이트"><img src="./thumbs/105.jpg" width="200" alt="나의 꽃은"></a><br><sub>105</sub><br><a href="./나의%20꽃은/My_Flower_Crown_Backlit_Beauty_Portrait_Prompt.md">나의 꽃은</a></td>
   </tr>
   <tr>
