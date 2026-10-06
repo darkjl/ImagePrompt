@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>121 prompts · Gemini / GPT · 최신순</sub>
+<sub>122 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./조커/Half_Split_Clown_Villain_ID_Photo_Prompt.md" title="숫자로 정하는 광대 악당 분장과 맨얼굴의 하프 스플릿 증명사진"><img src="./thumbs/122.jpg" width="200" alt="반쪽 광대 증명사진"></a><br><sub>122</sub><br><a href="./조커/Half_Split_Clown_Villain_ID_Photo_Prompt.md">반쪽 광대 증명사진</a></td>
     <td align="center" valign="top" width="25%"><a href="./할로윈삐에로화장/Halloween_White_Face_Paint_Crow_and_Clown_Prompt.md" title="까마귀 복수자와 광대 메이크업의 순백 페이스페인트 다크 판타지 초상"><img src="./thumbs/121.jpg" width="200" alt="할로윈 흰 얼굴 분장"></a><br><sub>121</sub><br><a href="./할로윈삐에로화장/Halloween_White_Face_Paint_Crow_and_Clown_Prompt.md">할로윈 흰 얼굴 분장</a></td>
   </tr>
   <tr>
