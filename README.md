@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>116 prompts · Gemini / GPT · 최신순</sub>
+<sub>117 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./힙한나의분신/Hip_Minimi_Number_Driven_Streetwear_Prompt.md" title="숫자로 뽑은 스트릿 패션의 연필 스케치풍 아기 인형 미니미"><img src="./thumbs/117.jpg" width="200" alt="힙한 나의 분신"></a><br><sub>117</sub><br><a href="./힙한나의분신/Hip_Minimi_Number_Driven_Streetwear_Prompt.md">힙한 나의 분신</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./모나리자/Mona_Lisa_Number_Driven_Absurd_Background_Prompt.md" title="숫자로 정해지는 황당한 배경의 모나리자 르네상스 유화"><img src="./thumbs/116.jpg" width="200" alt="모나리자"></a><br><sub>116</sub><br><a href="./모나리자/Mona_Lisa_Number_Driven_Absurd_Background_Prompt.md">모나리자</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20커피숍%20인테리어/My_Coffee_Shop_Smartphone_Diorama_Prompt.md" title="나를 분석해 설계한 스마트폰 미니어처 커피숍 디오라마"><img src="./thumbs/115.jpg" width="200" alt="나의 커피숍 인테리어"></a><br><sub>115</sub><br><a href="./나의%20커피숍%20인테리어/My_Coffee_Shop_Smartphone_Diorama_Prompt.md">나의 커피숍 인테리어</a></td>
