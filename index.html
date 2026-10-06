@@ -101,7 +101,7 @@ a:hover { color: var(--accent); }
   border-radius: 999px;
   cursor: pointer;
 }
-.toggle button[data-order] { padding: 7px 14px; font-family: var(--sans); font-size: 13px; letter-spacing: 0; }
+.toggle button[data-order], .toggle button[data-version] { padding: 7px 14px; font-family: var(--sans); font-size: 13px; letter-spacing: 0; }
 .toggle button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .count { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; color: var(--muted); }
 
@@ -226,6 +226,8 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
 .prompt { display: flex; flex-direction: column; gap: 14px; min-height: 0; padding: 24px; }
 .prompt-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
 .prompt-head > span { font-size: 13px; color: var(--muted); }
+.prompt-title { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px; font-size: 13px; color: var(--muted); }
+.prompt-title .toggle[hidden] { display: none; }
 .prompt-actions { display: flex; align-items: center; gap: 16px; }
 .prompt-actions a { font-size: 13px; border-bottom: 1px solid #B9B3A6; }
 .prompt pre {
@@ -329,7 +331,10 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     </div>
     <div class="prompt">
       <div class="prompt-head">
-        <span>프롬프트 전문</span>
+        <div class="prompt-title">
+          <span id="versions-label">프롬프트 전문</span>
+          <div class="toggle" id="viewer-versions" role="group" aria-labelledby="versions-label" hidden></div>
+        </div>
         <div class="prompt-actions">
           <a id="viewer-link" href="#">해설 문서 보기</a>
           <button class="pill solid" id="viewer-copy" type="button">프롬프트 복사</button>
@@ -346,7 +351,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
 </dialog>
 
 <!-- data.js를 고치면 v 값을 올려야 브라우저가 새로 받는다 -->
-<script src="./data.js?v=7"></script>
+<script src="./data.js?v=8"></script>
 <script>
 (function () {
   var items = window.GALLERY || [];
@@ -359,6 +364,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   var current = -1;
   var model = "gpt";
   var order = "new";
+  var promptText = "";
 
   try {
     if (localStorage.getItem("model") === "gemini") model = "gemini";
@@ -431,6 +437,31 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     copyBtn.classList.remove("done");
   }
 
+  // 모델별로 프롬프트가 다른 항목은 버전을 골라 볼 수 있다.
+  function showPrompt(it, pick) {
+    var pre = document.getElementById("viewer-prompt");
+    var box = document.getElementById("viewer-versions");
+    var versions = it.prompts || [];
+    var chosen = versions.filter(function (v) { return v.model === (pick || model); })[0] || versions[0];
+    box.textContent = "";
+    box.hidden = versions.length < 2;
+    versions.forEach(function (v) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.dataset.version = v.model;
+      b.textContent = v.label;
+      b.setAttribute("aria-pressed", String(v === chosen));
+      b.addEventListener("click", function () {
+        showPrompt(it, v.model);
+        resetCopy();
+      });
+      box.append(b);
+    });
+    promptText = chosen ? chosen.text : it.prompt;
+    pre.textContent = promptText;
+    pre.scrollTop = 0;
+  }
+
   function show(i) {
     var n = shown.length;
     if (!n) return;
@@ -452,9 +483,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
       }
     });
     gpt.closest(".pair").classList.toggle("single", !(it.gpt && it.gemini));
-    var pre = document.getElementById("viewer-prompt");
-    pre.textContent = it.prompt;
-    pre.scrollTop = 0;
+    showPrompt(it);
     document.getElementById("viewer-link").href = docUrl(it);
     resetCopy();
     if (!viewer.open) viewer.showModal();
@@ -487,7 +516,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     });
   });
   copyBtn.addEventListener("click", function () {
-    var text = shown[current].prompt;
+    var text = promptText;
     var done = function () {
       copyBtn.textContent = "복사됨";
       copyBtn.classList.add("done");

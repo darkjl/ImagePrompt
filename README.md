@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>91 prompts · Gemini / GPT · 최신순</sub>
+<sub>92 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./가을%20햇살%20쇼파/Autumn_Sunlight_Sofa_Vintage_Film_Prompt.md" title="늦은 오후 황금빛 햇살 코듀로이 소파 빈티지 필름 사진"><img src="./thumbs/92.jpg" width="200" alt="가을 햇살 쇼파"></a><br><sub>92</sub><br><a href="./가을%20햇살%20쇼파/Autumn_Sunlight_Sofa_Vintage_Film_Prompt.md">가을 햇살 쇼파</a></td>
     <td align="center" valign="top" width="25%"><a href="./디저트%20헤어스타일/Physiognomy_Dessert_Hair_Portrait_Prompt.md" title="관상으로 고른 디저트 모티프 헤어스타일 뷰티 매거진 화보"><img src="./thumbs/91.jpg" width="200" alt="디저트 헤어스타일"></a><br><sub>91</sub><br><a href="./디저트%20헤어스타일/Physiognomy_Dessert_Hair_Portrait_Prompt.md">디저트 헤어스타일</a></td>
     <td align="center" valign="top" width="25%"><a href="./무협칭호/Murim_Title_Wuxia_Cover_Prompt.md" title="기억 기반 무림 인물록과 별호 한국 무협 웹소설 표지"><img src="./thumbs/90.jpg" width="200" alt="무협칭호"></a><br><sub>90</sub><br><a href="./무협칭호/Murim_Title_Wuxia_Cover_Prompt.md">무협칭호</a></td>
     <td align="center" valign="top" width="25%"><a href="./화난%20애니캐릭/Angry_Anime_Character_Art_Toy_ID_Prompt.md" title="애니 캐릭터 코스튬 화난 미니미 아트토이 증명사진"><img src="./thumbs/89.jpg" width="200" alt="화난 애니캐릭"></a><br><sub>89</sub><br><a href="./화난%20애니캐릭/Angry_Anime_Character_Art_Toy_ID_Prompt.md">화난 애니캐릭</a></td>
