@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>93 prompts · Gemini / GPT · 최신순</sub>
+<sub>94 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./빈티지%20아이%20포스터/Vintage_1950s_Child_Minimi_Illustration_Prompt.md" title="1950년대 미국 광고 삽화풍 어린아이 미니미 과슈 일러스트"><img src="./thumbs/94.jpg" width="200" alt="빈티지 아이 포스터"></a><br><sub>94</sub><br><a href="./빈티지%20아이%20포스터/Vintage_1950s_Child_Minimi_Illustration_Prompt.md">빈티지 아이 포스터</a></td>
     <td align="center" valign="top" width="25%"><a href="./가을%20계단에서/Autumn_Steps_Dark_Academia_Portrait_Prompt.md" title="늦가을 골든아워 캠퍼스 돌계단 다크 아카데미아 필름 사진"><img src="./thumbs/93.jpg" width="200" alt="가을 계단에서"></a><br><sub>93</sub><br><a href="./가을%20계단에서/Autumn_Steps_Dark_Academia_Portrait_Prompt.md">가을 계단에서</a></td>
   </tr>
   <tr>
