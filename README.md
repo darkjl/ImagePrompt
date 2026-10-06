@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>96 prompts · Gemini / GPT · 최신순</sub>
+<sub>97 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./수고했어오늘도/Good_Job_Today_Streetlight_Night_Prompt.md" title="늦은 밤 골목 가로등 아래 전신주에 기대 하늘을 보는 영화 스틸컷"><img src="./thumbs/97.jpg" width="200" alt="수고했어 오늘도"></a><br><sub>97</sub><br><a href="./수고했어오늘도/Good_Job_Today_Streetlight_Night_Prompt.md">수고했어 오늘도</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./할로윈%20영화%20포스터/Vintage_Slasher_Halloween_Movie_Poster_Prompt.md" title="1970~80년대 빈티지 슬래셔 공포영화 포스터"><img src="./thumbs/96.jpg" width="200" alt="할로윈 영화 포스터"></a><br><sub>96</sub><br><a href="./할로윈%20영화%20포스터/Vintage_Slasher_Halloween_Movie_Poster_Prompt.md">할로윈 영화 포스터</a></td>
     <td align="center" valign="top" width="25%"><a href="./구체관절인형과%20나/BJD_Doll_and_Me_Gothic_Horror_Prompt.md" title="나를 본뜬 구체관절인형과 함께한 로코코 고딕 호러 판타지 화보"><img src="./thumbs/95.jpg" width="200" alt="구체관절인형과 나"></a><br><sub>95</sub><br><a href="./구체관절인형과%20나/BJD_Doll_and_Me_Gothic_Horror_Prompt.md">구체관절인형과 나</a></td>
