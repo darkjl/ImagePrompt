@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>92 prompts · Gemini / GPT · 최신순</sub>
+<sub>93 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./가을%20계단에서/Autumn_Steps_Dark_Academia_Portrait_Prompt.md" title="늦가을 골든아워 캠퍼스 돌계단 다크 아카데미아 필름 사진"><img src="./thumbs/93.jpg" width="200" alt="가을 계단에서"></a><br><sub>93</sub><br><a href="./가을%20계단에서/Autumn_Steps_Dark_Academia_Portrait_Prompt.md">가을 계단에서</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./가을%20햇살%20쇼파/Autumn_Sunlight_Sofa_Vintage_Film_Prompt.md" title="늦은 오후 황금빛 햇살 코듀로이 소파 빈티지 필름 사진"><img src="./thumbs/92.jpg" width="200" alt="가을 햇살 쇼파"></a><br><sub>92</sub><br><a href="./가을%20햇살%20쇼파/Autumn_Sunlight_Sofa_Vintage_Film_Prompt.md">가을 햇살 쇼파</a></td>
     <td align="center" valign="top" width="25%"><a href="./디저트%20헤어스타일/Physiognomy_Dessert_Hair_Portrait_Prompt.md" title="관상으로 고른 디저트 모티프 헤어스타일 뷰티 매거진 화보"><img src="./thumbs/91.jpg" width="200" alt="디저트 헤어스타일"></a><br><sub>91</sub><br><a href="./디저트%20헤어스타일/Physiognomy_Dessert_Hair_Portrait_Prompt.md">디저트 헤어스타일</a></td>
