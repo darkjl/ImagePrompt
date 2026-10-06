@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>120 prompts · Gemini / GPT · 최신순</sub>
+<sub>121 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./할로윈삐에로화장/Halloween_White_Face_Paint_Crow_and_Clown_Prompt.md" title="까마귀 복수자와 광대 메이크업의 순백 페이스페인트 다크 판타지 초상"><img src="./thumbs/121.jpg" width="200" alt="할로윈 흰 얼굴 분장"></a><br><sub>121</sub><br><a href="./할로윈삐에로화장/Halloween_White_Face_Paint_Crow_and_Clown_Prompt.md">할로윈 흰 얼굴 분장</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./달풍선을든%20소녀/Moon_Balloon_Cave_Surreal_Portrait_Prompt.md" title="동굴 입구에서 달 풍선을 쥔 초현실 판타지 합성 사진"><img src="./thumbs/120.jpg" width="200" alt="달 풍선을 든 밤"></a><br><sub>120</sub><br><a href="./달풍선을든%20소녀/Moon_Balloon_Cave_Surreal_Portrait_Prompt.md">달 풍선을 든 밤</a></td>
     <td align="center" valign="top" width="25%"><a href="./나와생일이%20비슷한%20마법소녀/Birthday_Matched_Magical_Girl_Collector_Card_Prompt.md" title="생일이 같은 마법소녀를 찾아 그리는 은빛 부조 수집용 카드"><img src="./thumbs/119.jpg" width="200" alt="나랑 생일 비슷한 마법소녀"></a><br><sub>119</sub><br><a href="./나와생일이%20비슷한%20마법소녀/Birthday_Matched_Magical_Girl_Collector_Card_Prompt.md">나랑 생일 비슷한 마법소녀</a></td>
