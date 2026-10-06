@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>112 prompts · Gemini / GPT · 최신순</sub>
+<sub>113 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./메딕/Space_Medic_Retro_Future_Full_Body_Prompt.md" title="하얀 해변의 레트로 퓨처 우주 메딕 SF 영화 스틸컷"><img src="./thumbs/113.jpg" width="200" alt="메딕"></a><br><sub>113</sub><br><a href="./메딕/Space_Medic_Retro_Future_Full_Body_Prompt.md">메딕</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./레드햇/Red_Hat_Ink_Brush_Fashion_Illustration_Prompt.md" title="레드 모자와 블랙 선글라스의 잉크 브러시 패션 일러스트"><img src="./thumbs/112.jpg" width="200" alt="레드햇"></a><br><sub>112</sub><br><a href="./레드햇/Red_Hat_Ink_Brush_Fashion_Illustration_Prompt.md">레드햇</a></td>
     <td align="center" valign="top" width="25%"><a href="./이야기에서%20빠져나온%20순간/Escaping_the_Storybook_Galaxy_Eyes_Chibi_Prompt.md" title="찢어진 책장에서 빠져나오는 은하 눈동자의 치비 아트토이"><img src="./thumbs/111.jpg" width="200" alt="이야기에서 빠져나온 순간"></a><br><sub>111</sub><br><a href="./이야기에서%20빠져나온%20순간/Escaping_the_Storybook_Galaxy_Eyes_Chibi_Prompt.md">이야기에서 빠져나온 순간</a></td>
