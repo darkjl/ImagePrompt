@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>111 prompts · Gemini / GPT · 최신순</sub>
+<sub>112 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./레드햇/Red_Hat_Ink_Brush_Fashion_Illustration_Prompt.md" title="레드 모자와 블랙 선글라스의 잉크 브러시 패션 일러스트"><img src="./thumbs/112.jpg" width="200" alt="레드햇"></a><br><sub>112</sub><br><a href="./레드햇/Red_Hat_Ink_Brush_Fashion_Illustration_Prompt.md">레드햇</a></td>
     <td align="center" valign="top" width="25%"><a href="./이야기에서%20빠져나온%20순간/Escaping_the_Storybook_Galaxy_Eyes_Chibi_Prompt.md" title="찢어진 책장에서 빠져나오는 은하 눈동자의 치비 아트토이"><img src="./thumbs/111.jpg" width="200" alt="이야기에서 빠져나온 순간"></a><br><sub>111</sub><br><a href="./이야기에서%20빠져나온%20순간/Escaping_the_Storybook_Galaxy_Eyes_Chibi_Prompt.md">이야기에서 빠져나온 순간</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20스크랩/My_Handmade_Scrapbook_Collage_Prompt.md" title="나를 분석해 꾸민 핸드메이드 스크랩북 콜라주 공예 사진"><img src="./thumbs/110.jpg" width="200" alt="나의 스크랩"></a><br><sub>110</sub><br><a href="./나의%20스크랩/My_Handmade_Scrapbook_Collage_Prompt.md">나의 스크랩</a></td>
     <td align="center" valign="top" width="25%"><a href="./귀여운것들의%20행성/Planet_of_Cute_Things_Fantasy_Poster_Prompt.md" title="나를 닮은 귀여운 존재들만 사는 별의 판타지 영화 포스터"><img src="./thumbs/109.jpg" width="200" alt="귀여운 것들의 행성"></a><br><sub>109</sub><br><a href="./귀여운것들의%20행성/Planet_of_Cute_Things_Fantasy_Poster_Prompt.md">귀여운 것들의 행성</a></td>
