@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>115 prompts · Gemini / GPT · 최신순</sub>
+<sub>116 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./모나리자/Mona_Lisa_Number_Driven_Absurd_Background_Prompt.md" title="숫자로 정해지는 황당한 배경의 모나리자 르네상스 유화"><img src="./thumbs/116.jpg" width="200" alt="모나리자"></a><br><sub>116</sub><br><a href="./모나리자/Mona_Lisa_Number_Driven_Absurd_Background_Prompt.md">모나리자</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20커피숍%20인테리어/My_Coffee_Shop_Smartphone_Diorama_Prompt.md" title="나를 분석해 설계한 스마트폰 미니어처 커피숍 디오라마"><img src="./thumbs/115.jpg" width="200" alt="나의 커피숍 인테리어"></a><br><sub>115</sub><br><a href="./나의%20커피숍%20인테리어/My_Coffee_Shop_Smartphone_Diorama_Prompt.md">나의 커피숍 인테리어</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20애니케릭터%20힙합버전/My_Anime_Character_Streetwear_Poster_Prompt.md" title="인상 매칭 애니 주인공의 스트릿웨어 패션 화보 캐릭터 포스터"><img src="./thumbs/114.jpg" width="200" alt="나의 애니캐릭터 힙합 버전"></a><br><sub>114</sub><br><a href="./나의%20애니케릭터%20힙합버전/My_Anime_Character_Streetwear_Poster_Prompt.md">나의 애니캐릭터 힙합 버전</a></td>
     <td align="center" valign="top" width="25%"><a href="./메딕/Space_Medic_Retro_Future_Full_Body_Prompt.md" title="하얀 해변의 레트로 퓨처 우주 메딕 SF 영화 스틸컷"><img src="./thumbs/113.jpg" width="200" alt="메딕"></a><br><sub>113</sub><br><a href="./메딕/Space_Medic_Retro_Future_Full_Body_Prompt.md">메딕</a></td>
