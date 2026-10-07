@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>129 prompts · Gemini / GPT · 최신순</sub>
+<sub>130 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./골든%20더스트/Golden_Dust_Butterfly_Scales_Macro_Portrait_Prompt.md" title="그늘 속 얼굴에 빛나는 황금 나비 인분이 흘러내리는 매크로 실사"><img src="./thumbs/130.jpg" width="200" alt="골든 더스트"></a><br><sub>130</sub><br><a href="./골든%20더스트/Golden_Dust_Butterfly_Scales_Macro_Portrait_Prompt.md">골든 더스트</a></td>
     <td align="center" valign="top" width="25%"><a href="./코스모스%20꽃밭에서/Cosmos_Garden_Vintage_Retro_Backlit_Portrait_Prompt.md" title="황금빛 역광의 노란 코스모스 정원과 빈티지 레트로 니트 화보"><img src="./thumbs/129.jpg" width="200" alt="코스모스 꽃밭에서"></a><br><sub>129</sub><br><a href="./코스모스%20꽃밭에서/Cosmos_Garden_Vintage_Retro_Backlit_Portrait_Prompt.md">코스모스 꽃밭에서</a></td>
   </tr>
   <tr>
