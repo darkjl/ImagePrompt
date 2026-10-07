@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>124 prompts · Gemini / GPT · 최신순</sub>
+<sub>125 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./아기%20명화/Masterpiece_Baby_Portrait_Jinchae_Prompt.md" title="인상에 맞는 명화 속 주인공이 된 익살스러운 아기 진채화"><img src="./thumbs/125.jpg" width="200" alt="명화 아기 초상화"></a><br><sub>125</sub><br><a href="./아기%20명화/Masterpiece_Baby_Portrait_Jinchae_Prompt.md">명화 아기 초상화</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./동화속%20초상화/Fairy_Tale_Protagonist_Framed_Portrait_Prompt.md" title="인상에 맞는 동화 주인공이 된 바로크 액자 속 인형풍 초상"><img src="./thumbs/124.jpg" width="200" alt="동화 주인공 액자 초상화"></a><br><sub>124</sub><br><a href="./동화속%20초상화/Fairy_Tale_Protagonist_Framed_Portrait_Prompt.md">동화 주인공 액자 초상화</a></td>
     <td align="center" valign="top" width="25%"><a href="./사실주의%20연필%20스케치/High_Key_Monotone_Pencil_Sketch_Fashion_Portrait_Prompt.md" title="푸른 눈동자만 빛나는 하이키 모노톤 연필 스케치 패션 초상"><img src="./thumbs/123.jpg" width="200" alt="사실주의 연필 스케치"></a><br><sub>123</sub><br><a href="./사실주의%20연필%20스케치/High_Key_Monotone_Pencil_Sketch_Fashion_Portrait_Prompt.md">사실주의 연필 스케치</a></td>
