@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>127 prompts · Gemini / GPT · 최신순</sub>
+<sub>128 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./백설왕자와%20공주기사/Snow_White_Prince_and_Princess_Knight_Prompt.md" title="성별을 바꾼 백설공주, 유리관의 왕자를 깨우는 공주기사"><img src="./thumbs/128.jpg" width="200" alt="백설왕자와 공주기사"></a><br><sub>128</sub><br><a href="./백설왕자와%20공주기사/Snow_White_Prince_and_Princess_Knight_Prompt.md">백설왕자와 공주기사</a></td>
     <td align="center" valign="top" width="25%"><a href="./봄날의%20스쿠터/Spring_Day_Retro_Scooter_Cherry_Blossom_Prompt.md" title="벚꽃길을 달리는 민트색 레트로 스쿠터와 고양이 귀 헬멧 실사 사진"><img src="./thumbs/127.jpg" width="200" alt="봄날의 스쿠터"></a><br><sub>127</sub><br><a href="./봄날의%20스쿠터/Spring_Day_Retro_Scooter_Cherry_Blossom_Prompt.md">봄날의 스쿠터</a></td>
     <td align="center" valign="top" width="25%"><a href="./로리타%20패션/Lolita_Fashion_Full_Body_Editorial_Prompt.md" title="나이와 얼굴 그대로, 인상에 맞춘 로리타 패션 실사 전신 화보"><img src="./thumbs/126.jpg" width="200" alt="로리타 패션 화보"></a><br><sub>126</sub><br><a href="./로리타%20패션/Lolita_Fashion_Full_Body_Editorial_Prompt.md">로리타 패션 화보</a></td>
     <td align="center" valign="top" width="25%"><a href="./아기%20명화/Masterpiece_Baby_Portrait_Jinchae_Prompt.md" title="인상에 맞는 명화 속 주인공이 된 익살스러운 아기 진채화"><img src="./thumbs/125.jpg" width="200" alt="명화 아기 초상화"></a><br><sub>125</sub><br><a href="./아기%20명화/Masterpiece_Baby_Portrait_Jinchae_Prompt.md">명화 아기 초상화</a></td>
