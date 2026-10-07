@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>128 prompts · Gemini / GPT · 최신순</sub>
+<sub>129 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./코스모스%20꽃밭에서/Cosmos_Garden_Vintage_Retro_Backlit_Portrait_Prompt.md" title="황금빛 역광의 노란 코스모스 정원과 빈티지 레트로 니트 화보"><img src="./thumbs/129.jpg" width="200" alt="코스모스 꽃밭에서"></a><br><sub>129</sub><br><a href="./코스모스%20꽃밭에서/Cosmos_Garden_Vintage_Retro_Backlit_Portrait_Prompt.md">코스모스 꽃밭에서</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./백설왕자와%20공주기사/Snow_White_Prince_and_Princess_Knight_Prompt.md" title="성별을 바꾼 백설공주, 유리관의 왕자를 깨우는 공주기사"><img src="./thumbs/128.jpg" width="200" alt="백설왕자와 공주기사"></a><br><sub>128</sub><br><a href="./백설왕자와%20공주기사/Snow_White_Prince_and_Princess_Knight_Prompt.md">백설왕자와 공주기사</a></td>
     <td align="center" valign="top" width="25%"><a href="./봄날의%20스쿠터/Spring_Day_Retro_Scooter_Cherry_Blossom_Prompt.md" title="벚꽃길을 달리는 민트색 레트로 스쿠터와 고양이 귀 헬멧 실사 사진"><img src="./thumbs/127.jpg" width="200" alt="봄날의 스쿠터"></a><br><sub>127</sub><br><a href="./봄날의%20스쿠터/Spring_Day_Retro_Scooter_Cherry_Blossom_Prompt.md">봄날의 스쿠터</a></td>
