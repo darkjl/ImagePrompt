@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>134 prompts · Gemini / GPT · 최신순</sub>
+<sub>135 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./화창한%20가을날/Sky_Blue_Afternoon_Rooftop_Paper_Plane_Prompt.md" title="옥상 난간에 앉아 종이비행기 나는 여름 하늘을 올려다보는 감성 화보"><img src="./thumbs/135.jpg" width="200" alt="하늘색 오후 화보"></a><br><sub>135</sub><br><a href="./화창한%20가을날/Sky_Blue_Afternoon_Rooftop_Paper_Plane_Prompt.md">하늘색 오후 화보</a></td>
     <td align="center" valign="top" width="25%"><a href="./스탠드%20찾기/My_Original_Stand_JoJo_Style_Prompt.md" title="얼굴 인상으로 디자인한 나만의 스탠드, 죠죠풍 컬러 만화 일러스트"><img src="./thumbs/134.jpg" width="200" alt="나의 스탠드 찾기"></a><br><sub>134</sub><br><a href="./스탠드%20찾기/My_Original_Stand_JoJo_Style_Prompt.md">나의 스탠드 찾기</a></td>
     <td align="center" valign="top" width="25%"><a href="./서브컬쳐찾기/Birthday_Matched_Subculture_Game_Character_Card_Prompt.md" title="생일이 같은 서브컬처 게임 캐릭터를 찾아 그리는 은빛 부조 수집용 카드"><img src="./thumbs/133.jpg" width="200" alt="나랑 생일 비슷한 게임 캐릭터"></a><br><sub>133</sub><br><a href="./서브컬쳐찾기/Birthday_Matched_Subculture_Game_Character_Card_Prompt.md">나랑 생일 비슷한 게임 캐릭터</a></td>
   </tr>
