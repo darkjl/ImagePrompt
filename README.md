@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>140 prompts · Gemini / GPT · 최신순</sub>
+<sub>141 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./바텐더/Bartender_Blue_Cocktail_Pour_Prompt.md" title="늦은 밤 바에서 푸른 칵테일을 따르는 가죽 장갑의 바텐더"><img src="./thumbs/141.jpg" width="200" alt="바텐더"></a><br><sub>141</sub><br><a href="./바텐더/Bartender_Blue_Cocktail_Pour_Prompt.md">바텐더</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./아궁빵/Chin_Grab_Pose_Mini_Me_Art_Toy_Prompt.md" title="손으로 턱을 잡는 포즈의 수트 차림 3D 미니미 아트토이"><img src="./thumbs/140.jpg" width="200" alt="아궁빵 포즈 미니미"></a><br><sub>140</sub><br><a href="./아궁빵/Chin_Grab_Pose_Mini_Me_Art_Toy_Prompt.md">아궁빵 포즈 미니미</a></td>
     <td align="center" valign="top" width="25%"><a href="./린민메이/Lynn_Minmay_Semi_Realistic_Poster_Prompt.md" title="마이크를 든 80년대 애니 아이돌 가수의 반실사 시네마틱 포스터"><img src="./thumbs/139.jpg" width="200" alt="린 민메이"></a><br><sub>139</sub><br><a href="./린민메이/Lynn_Minmay_Semi_Realistic_Poster_Prompt.md">린 민메이</a></td>
