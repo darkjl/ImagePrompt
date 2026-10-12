@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>152 prompts · Gemini / GPT · 최신순</sub>
+<sub>153 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./멀티%20포커싱2/Multi_Focus_Cosmos_Shallow_Depth_Portrait_Prompt.md" title="얼굴과 손에 든 코스모스 한 송이만 선명한 극단적으로 얕은 심도의 반실사 포트레이트"><img src="./thumbs/153.jpg" width="200" alt="멀티 포커싱 2"></a><br><sub>153</sub><br><a href="./멀티%20포커싱2/Multi_Focus_Cosmos_Shallow_Depth_Portrait_Prompt.md">멀티 포커싱 2</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./멀티포커싱1/Multi_Focus_Floating_Flowers_Portrait_Prompt.md" title="꽃 한 송이를 내민 얼굴 둘레로 초점이 제각각인 꽃이 떠 있는 반실사 포트레이트"><img src="./thumbs/152.jpg" width="200" alt="멀티 포커싱 1"></a><br><sub>152</sub><br><a href="./멀티포커싱1/Multi_Focus_Floating_Flowers_Portrait_Prompt.md">멀티 포커싱 1</a></td>
     <td align="center" valign="top" width="25%"><a href="./꽃과피규어/My_Flower_Art_Toy_Figure_Prompt.md" title="나에게 어울리는 꽃을 입은 아트토이 피규어 제품 사진"><img src="./thumbs/151.jpg" width="200" alt="꽃과 피규어"></a><br><sub>151</sub><br><a href="./꽃과피규어/My_Flower_Art_Toy_Figure_Prompt.md">꽃과 피규어</a></td>
