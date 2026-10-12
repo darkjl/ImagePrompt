@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>132 prompts · Gemini / GPT · 최신순</sub>
+<sub>133 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./서브컬쳐찾기/Birthday_Matched_Subculture_Game_Character_Card_Prompt.md" title="생일이 같은 서브컬처 게임 캐릭터를 찾아 그리는 은빛 부조 수집용 카드"><img src="./thumbs/133.jpg" width="200" alt="나랑 생일 비슷한 게임 캐릭터"></a><br><sub>133</sub><br><a href="./서브컬쳐찾기/Birthday_Matched_Subculture_Game_Character_Card_Prompt.md">나랑 생일 비슷한 게임 캐릭터</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./얼굴%20수묵화/Face_Closeup_Ink_Wash_Portrait_Prompt.md" title="붉은 눈동자와 아랫입술만 색을 입힌 여백의 얼굴 클로즈업 수묵담채"><img src="./thumbs/132.jpg" width="200" alt="얼굴 수묵담채화"></a><br><sub>132</sub><br><a href="./얼굴%20수묵화/Face_Closeup_Ink_Wash_Portrait_Prompt.md">얼굴 수묵담채화</a></td>
     <td align="center" valign="top" width="25%"><a href="./댄싱수묵화/Dancing_Ink_Wash_Hiphop_Dancer_Prompt.md" title="수묵담채화 속으로 녹아드는 힙합 댄서의 역광 실사 혼합 그림"><img src="./thumbs/131.jpg" width="200" alt="댄싱 수묵화"></a><br><sub>131</sub><br><a href="./댄싱수묵화/Dancing_Ink_Wash_Hiphop_Dancer_Prompt.md">댄싱 수묵화</a></td>
