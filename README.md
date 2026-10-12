@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>141 prompts · Gemini / GPT · 최신순</sub>
+<sub>142 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./황야의%20총잡/White_Gunslinger_Fantasy_Western_Prompt.md" title="하얀 사막에 선 올 화이트 차림의 판타지 웨스턴 총잡이"><img src="./thumbs/142.jpg" width="200" alt="백색의 총잡이"></a><br><sub>142</sub><br><a href="./황야의%20총잡/White_Gunslinger_Fantasy_Western_Prompt.md">백색의 총잡이</a></td>
     <td align="center" valign="top" width="25%"><a href="./바텐더/Bartender_Blue_Cocktail_Pour_Prompt.md" title="늦은 밤 바에서 푸른 칵테일을 따르는 가죽 장갑의 바텐더"><img src="./thumbs/141.jpg" width="200" alt="바텐더"></a><br><sub>141</sub><br><a href="./바텐더/Bartender_Blue_Cocktail_Pour_Prompt.md">바텐더</a></td>
   </tr>
   <tr>
