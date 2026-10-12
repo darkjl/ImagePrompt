@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>144 prompts · Gemini / GPT · 최신순</sub>
+<sub>145 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./한글이름/Native_Korean_Name_Neon_Sign_Mini_Me_Prompt.md" title="인상에 맞춰 지은 순우리말 이름의 노란 네온사인과 3D 미니미"><img src="./thumbs/145.jpg" width="200" alt="순우리말 이름 네온사인"></a><br><sub>145</sub><br><a href="./한글이름/Native_Korean_Name_Neon_Sign_Mini_Me_Prompt.md">순우리말 이름 네온사인</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./나의%20명품/My_Luxury_Brand_Art_Doll_Poster_Prompt.md" title="숫자 끝자리로 정한 명품 브랜드 룩의 아트돌 광고 포스터"><img src="./thumbs/144.jpg" width="200" alt="나의 명품 인형"></a><br><sub>144</sub><br><a href="./나의%20명품/My_Luxury_Brand_Art_Doll_Poster_Prompt.md">나의 명품 인형</a></td>
     <td align="center" valign="top" width="25%"><a href="./오후%20계단의%20버스킹/Afternoon_Staircase_Guitar_and_Cats_Prompt.md" title="황금빛 햇살의 저택 계단에서 고양이들과 기타를 치며 노래하는 실사"><img src="./thumbs/143.jpg" width="200" alt="오후 계단의 버스킹"></a><br><sub>143</sub><br><a href="./오후%20계단의%20버스킹/Afternoon_Staircase_Guitar_and_Cats_Prompt.md">오후 계단의 버스킹</a></td>
