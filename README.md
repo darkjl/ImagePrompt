@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>136 prompts · Gemini / GPT · 최신순</sub>
+<sub>137 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./약사의%20혼잣말/Rainy_Night_Wisteria_Palace_Herb_Tray_Prompt.md" title="비 내리는 밤 등나무 궁궐 정원의 약초 채반 궁녀 반실사 일러스트"><img src="./thumbs/137.jpg" width="200" alt="약사의 혼잣말"></a><br><sub>137</sub><br><a href="./약사의%20혼잣말/Rainy_Night_Wisteria_Palace_Herb_Tray_Prompt.md">약사의 혼잣말</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./Lo-fi%20Sunset/Lofi_Sunset_Backlit_Headphone_Illustration_Prompt.md" title="노을 역광 속 헤드폰을 쓴 로파이 커버풍 애니메이션 일러스트"><img src="./thumbs/136.jpg" width="200" alt="Lo-fi Sunset"></a><br><sub>136</sub><br><a href="./Lo-fi%20Sunset/Lofi_Sunset_Backlit_Headphone_Illustration_Prompt.md">Lo-fi Sunset</a></td>
     <td align="center" valign="top" width="25%"><a href="./화창한%20가을날/Sky_Blue_Afternoon_Rooftop_Paper_Plane_Prompt.md" title="옥상 난간에 앉아 종이비행기 나는 여름 하늘을 올려다보는 감성 화보"><img src="./thumbs/135.jpg" width="200" alt="하늘색 오후 화보"></a><br><sub>135</sub><br><a href="./화창한%20가을날/Sky_Blue_Afternoon_Rooftop_Paper_Plane_Prompt.md">하늘색 오후 화보</a></td>
