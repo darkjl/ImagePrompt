@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>151 prompts · Gemini / GPT · 최신순</sub>
+<sub>152 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./멀티포커싱1/Multi_Focus_Floating_Flowers_Portrait_Prompt.md" title="꽃 한 송이를 내민 얼굴 둘레로 초점이 제각각인 꽃이 떠 있는 반실사 포트레이트"><img src="./thumbs/152.jpg" width="200" alt="멀티 포커싱 1"></a><br><sub>152</sub><br><a href="./멀티포커싱1/Multi_Focus_Floating_Flowers_Portrait_Prompt.md">멀티 포커싱 1</a></td>
     <td align="center" valign="top" width="25%"><a href="./꽃과피규어/My_Flower_Art_Toy_Figure_Prompt.md" title="나에게 어울리는 꽃을 입은 아트토이 피규어 제품 사진"><img src="./thumbs/151.jpg" width="200" alt="꽃과 피규어"></a><br><sub>151</sub><br><a href="./꽃과피규어/My_Flower_Art_Toy_Figure_Prompt.md">꽃과 피규어</a></td>
     <td align="center" valign="top" width="25%"><a href="./화이트%20슈트/White_Suit_Golden_Pistol_Portrait_Prompt.md" title="순백 수트와 실버 롱헤어, 황금 권총을 겨눈 세미실사 포트레이트"><img src="./thumbs/150.jpg" width="200" alt="화이트 수트"></a><br><sub>150</sub><br><a href="./화이트%20슈트/White_Suit_Golden_Pistol_Portrait_Prompt.md">화이트 수트</a></td>
     <td align="center" valign="top" width="25%"><a href="./나의%20꽃요정/My_Flower_Botanical_Poster_Hanbok_Minimi_Prompt.md" title="나에게 어울리는 꽃과 꽃말의 식물 도감풍 한복 미니미 포스터"><img src="./thumbs/149.jpg" width="200" alt="나의 꽃 요정"></a><br><sub>149</sub><br><a href="./나의%20꽃요정/My_Flower_Botanical_Poster_Hanbok_Minimi_Prompt.md">나의 꽃 요정</a></td>
