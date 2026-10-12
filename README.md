@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>137 prompts · Gemini / GPT · 최신순</sub>
+<sub>138 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./메텔/Galaxy_Train_Traveler_Lady_Cinematic_Prompt.md" title="별 가득한 우주와 하늘을 나는 999 증기기관차, 검은 퍼 모자의 금발 여인 실사"><img src="./thumbs/138.jpg" width="200" alt="은하철도의 여인"></a><br><sub>138</sub><br><a href="./메텔/Galaxy_Train_Traveler_Lady_Cinematic_Prompt.md">은하철도의 여인</a></td>
     <td align="center" valign="top" width="25%"><a href="./약사의%20혼잣말/Rainy_Night_Wisteria_Palace_Herb_Tray_Prompt.md" title="비 내리는 밤 등나무 궁궐 정원의 약초 채반 궁녀 반실사 일러스트"><img src="./thumbs/137.jpg" width="200" alt="약사의 혼잣말"></a><br><sub>137</sub><br><a href="./약사의%20혼잣말/Rainy_Night_Wisteria_Palace_Herb_Tray_Prompt.md">약사의 혼잣말</a></td>
   </tr>
   <tr>
