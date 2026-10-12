@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>146 prompts · Gemini / GPT · 최신순</sub>
+<sub>147 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./아이돌공주/Fairytale_Idol_Concept_Photo_Prompt.md" title="인상에 맞는 동화 주인공을 K-pop 아이돌로 재해석한 앨범 콘셉트 포토"><img src="./thumbs/147.jpg" width="200" alt="동화 주인공 아이돌"></a><br><sub>147</sub><br><a href="./아이돌공주/Fairytale_Idol_Concept_Photo_Prompt.md">동화 주인공 아이돌</a></td>
     <td align="center" valign="top" width="25%"><a href="./블랙슈트/Black_Suit_Long_Hair_Monotone_Portrait_Prompt.md" title="바람에 흩날리는 칠흑 롱헤어와 블랙 수트의 모노톤 세미실사 포트레이트"><img src="./thumbs/146.jpg" width="200" alt="블랙 수트"></a><br><sub>146</sub><br><a href="./블랙슈트/Black_Suit_Long_Hair_Monotone_Portrait_Prompt.md">블랙 수트</a></td>
     <td align="center" valign="top" width="25%"><a href="./한글이름/Native_Korean_Name_Neon_Sign_Mini_Me_Prompt.md" title="인상에 맞춰 지은 순우리말 이름의 노란 네온사인과 3D 미니미"><img src="./thumbs/145.jpg" width="200" alt="순우리말 이름 네온사인"></a><br><sub>145</sub><br><a href="./한글이름/Native_Korean_Name_Neon_Sign_Mini_Me_Prompt.md">순우리말 이름 네온사인</a></td>
   </tr>
