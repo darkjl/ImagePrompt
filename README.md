@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>148 prompts · Gemini / GPT · 최신순</sub>
+<sub>149 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./나의%20꽃요정/My_Flower_Botanical_Poster_Hanbok_Minimi_Prompt.md" title="나에게 어울리는 꽃과 꽃말의 식물 도감풍 한복 미니미 포스터"><img src="./thumbs/149.jpg" width="200" alt="나의 꽃 요정"></a><br><sub>149</sub><br><a href="./나의%20꽃요정/My_Flower_Botanical_Poster_Hanbok_Minimi_Prompt.md">나의 꽃 요정</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./스테인드글라스/Gothic_Stained_Glass_Medieval_Figure_Prompt.md" title="고딕 대성당 스테인드글라스 속 중세 인물과 바닥에 떨어진 색유리 빛"><img src="./thumbs/148.jpg" width="200" alt="스테인드글라스"></a><br><sub>148</sub><br><a href="./스테인드글라스/Gothic_Stained_Glass_Medieval_Figure_Prompt.md">스테인드글라스</a></td>
     <td align="center" valign="top" width="25%"><a href="./아이돌공주/Fairytale_Idol_Concept_Photo_Prompt.md" title="인상에 맞는 동화 주인공을 K-pop 아이돌로 재해석한 앨범 콘셉트 포토"><img src="./thumbs/147.jpg" width="200" alt="동화 주인공 아이돌"></a><br><sub>147</sub><br><a href="./아이돌공주/Fairytale_Idol_Concept_Photo_Prompt.md">동화 주인공 아이돌</a></td>
