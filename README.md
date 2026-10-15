@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>157 prompts · Gemini / GPT · 최신순</sub>
+<sub>158 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./파운데이션/Personalized_Cushion_Foundation_Case_Doll_Portrait_Prompt.md" title="나를 분석한 테마의 미니어처 소품과 패션 인형풍 초상화로 꾸민 쿠션 파운데이션 케이스 제품 사진"><img src="./thumbs/158.jpg" width="200" alt="나만의 파운데이션 케이스"></a><br><sub>158</sub><br><a href="./파운데이션/Personalized_Cushion_Foundation_Case_Doll_Portrait_Prompt.md">나만의 파운데이션 케이스</a></td>
     <td align="center" valign="top" width="25%"><a href="./머그샷/Funny_Fake_Crime_Mugshot_Prompt.md" title="나를 분석해 정한 웃긴 가상의 죄명·별명·형량으로 만드는 정면·측면 실사 머그샷"><img src="./thumbs/157.jpg" width="200" alt="머그샷"></a><br><sub>157</sub><br><a href="./머그샷/Funny_Fake_Crime_Mugshot_Prompt.md">머그샷</a></td>
   </tr>
   <tr>
