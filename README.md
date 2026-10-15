@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>154 prompts · Gemini / GPT · 최신순</sub>
+<sub>155 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./피부질감2/Skin_Texture_Pearl_Sheen_3D_CG_Beauty_Closeup_Prompt.md" title="모공 없이 진주빛 반사면으로 표현한 피부에 화이트 브레이드와 진주 장식의 3D CG 뷰티 클로즈업"><img src="./thumbs/155.jpg" width="200" alt="피부 질감 2"></a><br><sub>155</sub><br><a href="./피부질감2/Skin_Texture_Pearl_Sheen_3D_CG_Beauty_Closeup_Prompt.md">피부 질감 2</a></td>
     <td align="center" valign="top" width="25%"><a href="./피부질감1/Skin_Texture_Powdery_Matte_Semi_Real_Painting_Prompt.md" title="뽀얗고 보송한 반무광 피부의 연금발 반실사 애니메이션 페인팅"><img src="./thumbs/154.jpg" width="200" alt="피부 질감 1"></a><br><sub>154</sub><br><a href="./피부질감1/Skin_Texture_Powdery_Matte_Semi_Real_Painting_Prompt.md">피부 질감 1</a></td>
     <td align="center" valign="top" width="25%"><a href="./멀티%20포커싱2/Multi_Focus_Cosmos_Shallow_Depth_Portrait_Prompt.md" title="얼굴과 손에 든 코스모스 한 송이만 선명한 극단적으로 얕은 심도의 반실사 포트레이트"><img src="./thumbs/153.jpg" width="200" alt="멀티 포커싱 2"></a><br><sub>153</sub><br><a href="./멀티%20포커싱2/Multi_Focus_Cosmos_Shallow_Depth_Portrait_Prompt.md">멀티 포커싱 2</a></td>
   </tr>
