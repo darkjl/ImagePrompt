@@ -219,6 +219,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
   border-bottom: 1px solid var(--rule);
 }
 .pair.single { grid-template-columns: minmax(0, 1fr); }
+.pair.triple { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .pair figure[hidden] { display: none; }
 .pair figure { display: flex; flex-direction: column; gap: 12px; min-height: 0; margin: 0; padding: 20px 24px 24px; background: var(--paper); }
 .pair figcaption { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; }
@@ -328,6 +329,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     <div class="pair">
       <figure><figcaption>GPT</figcaption><img id="viewer-gpt" alt=""></figure>
       <figure><figcaption>Gemini</figcaption><img id="viewer-gemini" alt=""></figure>
+      <figure><figcaption>Grok</figcaption><img id="viewer-grok" alt=""></figure>
     </div>
     <div class="prompt">
       <div class="prompt-head">
@@ -351,7 +353,7 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
 </dialog>
 
 <!-- data.js를 고치면 v 값을 올려야 브라우저가 새로 받는다 -->
-<script src="./data.js?v=77"></script>
+<script src="./data.js?v=78"></script>
 <script>
 (function () {
   var items = window.GALLERY || [];
@@ -471,8 +473,9 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
     document.getElementById("viewer-title").textContent = it.name;
     var gpt = document.getElementById("viewer-gpt");
     var gemini = document.getElementById("viewer-gemini");
-    // 한쪽 모델 결과가 없는 항목은 있는 쪽만 보여준다.
-    [[gpt, "gpt", "GPT"], [gemini, "gemini", "Gemini"]].forEach(function (m) {
+    var grok = document.getElementById("viewer-grok");
+    // 결과가 있는 모델만 보여준다. Grok 결과는 일부 항목에만 있다.
+    [[gpt, "gpt", "GPT"], [gemini, "gemini", "Gemini"], [grok, "grok", "Grok"]].forEach(function (m) {
       var has = Boolean(it[m[1]]);
       m[0].closest("figure").hidden = !has;
       if (has) {
@@ -482,7 +485,9 @@ dialog::backdrop { background: rgba(22, 21, 19, 0.72); backdrop-filter: blur(4px
         m[0].removeAttribute("src");
       }
     });
-    gpt.closest(".pair").classList.toggle("single", !(it.gpt && it.gemini));
+    var count = [it.gpt, it.gemini, it.grok].filter(Boolean).length;
+    gpt.closest(".pair").classList.toggle("single", count === 1);
+    gpt.closest(".pair").classList.toggle("triple", count === 3);
     showPrompt(it);
     document.getElementById("viewer-link").href = docUrl(it);
     resetCopy();
