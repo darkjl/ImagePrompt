@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>156 prompts · Gemini / GPT · 최신순</sub>
+<sub>157 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./머그샷/Funny_Fake_Crime_Mugshot_Prompt.md" title="나를 분석해 정한 웃긴 가상의 죄명·별명·형량으로 만드는 정면·측면 실사 머그샷"><img src="./thumbs/157.jpg" width="200" alt="머그샷"></a><br><sub>157</sub><br><a href="./머그샷/Funny_Fake_Crime_Mugshot_Prompt.md">머그샷</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./구도테스트/Half_Face_Butterfly_Macro_3D_CG_Beauty_Prompt.md" title="얼굴 한쪽 절반만 화면을 채우는 매크로 구도에 볼 위의 핑크 나비와 홀로그램 장식을 더한 3D CG 뷰티 클로즈업"><img src="./thumbs/156.jpg" width="200" alt="나비 하프 페이스"></a><br><sub>156</sub><br><a href="./구도테스트/Half_Face_Butterfly_Macro_3D_CG_Beauty_Prompt.md">나비 하프 페이스</a></td>
     <td align="center" valign="top" width="25%"><a href="./피부질감2/Skin_Texture_Pearl_Sheen_3D_CG_Beauty_Closeup_Prompt.md" title="모공 없이 진주빛 반사면으로 표현한 피부에 화이트 브레이드와 진주 장식의 3D CG 뷰티 클로즈업"><img src="./thumbs/155.jpg" width="200" alt="피부 질감 2"></a><br><sub>155</sub><br><a href="./피부질감2/Skin_Texture_Pearl_Sheen_3D_CG_Beauty_Closeup_Prompt.md">피부 질감 2</a></td>
