@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>164 prompts · Gemini / GPT · 최신순</sub>
+<sub>165 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./햅번%20스타일2/Hepburn_Style_2_Side_Profile_Pearl_Portrait_Prompt.md" title="흰 새틴 헤어밴드와 짧은 앞머리 업두, 진주 목걸이로 어깨 너머 돌아보는 클래식 헵번풍 뷰티 일러스트"><img src="./thumbs/165.jpg" width="200" alt="헵번 스타일 2"></a><br><sub>165</sub><br><a href="./햅번%20스타일2/Hepburn_Style_2_Side_Profile_Pearl_Portrait_Prompt.md">헵번 스타일 2</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./귀족영애/Noble_Lady_Crested_Bird_Night_Garden_Romance_Fantasy_Cover_Prompt.md" title="밤의 정글 정원에서 거대한 흰 볏 새를 등지고 어깨 너머로 돌아보는 로맨스 판타지 표지풍 귀족 영애"><img src="./thumbs/164.jpg" width="200" alt="귀족 영애"></a><br><sub>164</sub><br><a href="./귀족영애/Noble_Lady_Crested_Bird_Night_Garden_Romance_Fantasy_Cover_Prompt.md">귀족 영애</a></td>
     <td align="center" valign="top" width="25%"><a href="./그레피티치비/Graffiti_Popout_Lettering_Art_Toy_Chibi_Prompt.md" title="나를 분석한 영어 문구가 벽을 뚫고 튀어나온 그라피티 벽 앞의 3등신 아트토이 미니미"><img src="./thumbs/163.jpg" width="200" alt="그라피티 치비"></a><br><sub>163</sub><br><a href="./그레피티치비/Graffiti_Popout_Lettering_Art_Toy_Chibi_Prompt.md">그라피티 치비</a></td>
