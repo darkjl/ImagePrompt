@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>165 prompts · Gemini / GPT · 최신순</sub>
+<sub>166 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./눈내리는%20날/Snowy_Day_Window_Looking_Up_Portrait_Prompt.md" title="눈 쌓인 창가 너머로 고개를 젖혀 내리는 눈을 올려다보는 흑발의 겨울 실사 인물 사진"><img src="./thumbs/166.jpg" width="200" alt="눈 내리는 날"></a><br><sub>166</sub><br><a href="./눈내리는%20날/Snowy_Day_Window_Looking_Up_Portrait_Prompt.md">눈 내리는 날</a></td>
     <td align="center" valign="top" width="25%"><a href="./햅번%20스타일2/Hepburn_Style_2_Side_Profile_Pearl_Portrait_Prompt.md" title="흰 새틴 헤어밴드와 짧은 앞머리 업두, 진주 목걸이로 어깨 너머 돌아보는 클래식 헵번풍 뷰티 일러스트"><img src="./thumbs/165.jpg" width="200" alt="헵번 스타일 2"></a><br><sub>165</sub><br><a href="./햅번%20스타일2/Hepburn_Style_2_Side_Profile_Pearl_Portrait_Prompt.md">헵번 스타일 2</a></td>
   </tr>
   <tr>
