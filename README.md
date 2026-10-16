@@ -2,9 +2,12 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>160 prompts · Gemini / GPT · 최신순</sub>
+<sub>161 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
+  <tr>
+    <td align="center" valign="top" width="25%"><a href="./파워드슈트3D버전/Animal_Powered_Suit_3D_Art_Toy_Prompt.md" title="나를 분석해 고른 동물 테마의 경량 파워드 슈트를 입은 3등신 디자이너 아트토이 3D 렌더"><img src="./thumbs/161.jpg" width="200" alt="파워드 슈트 3D 버전"></a><br><sub>161</sub><br><a href="./파워드슈트3D버전/Animal_Powered_Suit_3D_Art_Toy_Prompt.md">파워드 슈트 3D 버전</a></td>
+  </tr>
   <tr>
     <td align="center" valign="top" width="25%"><a href="./파워드슈트애니버전/Animal_Powered_Suit_Chibi_Anime_Prompt.md" title="나를 분석해 고른 동물 테마의 경량 파워드 슈트를 입은 3.5등신 미니 캐릭터 애니메이션 일러스트"><img src="./thumbs/160.jpg" width="200" alt="파워드 슈트 애니 버전"></a><br><sub>160</sub><br><a href="./파워드슈트애니버전/Animal_Powered_Suit_Chibi_Anime_Prompt.md">파워드 슈트 애니 버전</a></td>
     <td align="center" valign="top" width="25%"><a href="./피부질감3/Skin_Texture_Flat_Color_2_5D_Character_Conversion_Prompt.md" title="인물 이미지의 미세 질감을 걷어내고 넓은 색면과 청보라 음영의 반실사 2.5D 캐릭터 일러스트로 다시 그리는 변환"><img src="./thumbs/159.jpg" width="200" alt="피부 질감 3"></a><br><sub>159</sub><br><a href="./피부질감3/Skin_Texture_Flat_Color_2_5D_Character_Conversion_Prompt.md">피부 질감 3</a></td>
