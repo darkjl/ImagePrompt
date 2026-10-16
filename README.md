@@ -2,10 +2,11 @@
 
 AI 이미지 생성 프롬프트 모음. 이미지를 누르면 프롬프트 전문과 Gemini · GPT 결과 비교를 볼 수 있습니다.
 
-<sub>161 prompts · Gemini / GPT · 최신순</sub>
+<sub>162 prompts · Gemini / GPT · 최신순</sub>
 
 <table>
   <tr>
+    <td align="center" valign="top" width="25%"><a href="./그래피티/Graffiti_Mural_Painted_Portrait_With_Artist_Prompt.md" title="블루·머스터드 사각 붓질 벽화 속에 걸터앉은 주인공과 그 벽화를 칠하는 작은 그라피티 아티스트"><img src="./thumbs/162.jpg" width="200" alt="그라피티 벽화"></a><br><sub>162</sub><br><a href="./그래피티/Graffiti_Mural_Painted_Portrait_With_Artist_Prompt.md">그라피티 벽화</a></td>
     <td align="center" valign="top" width="25%"><a href="./파워드슈트3D버전/Animal_Powered_Suit_3D_Art_Toy_Prompt.md" title="나를 분석해 고른 동물 테마의 경량 파워드 슈트를 입은 3등신 디자이너 아트토이 3D 렌더"><img src="./thumbs/161.jpg" width="200" alt="파워드 슈트 3D 버전"></a><br><sub>161</sub><br><a href="./파워드슈트3D버전/Animal_Powered_Suit_3D_Art_Toy_Prompt.md">파워드 슈트 3D 버전</a></td>
   </tr>
   <tr>
